@@ -1,5 +1,6 @@
 .container {
     /*padding: 25px;*/
+    direction: rtl;
 }
 
 .main {
