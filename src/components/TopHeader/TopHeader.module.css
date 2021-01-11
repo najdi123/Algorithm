@@ -1,0 +1,126 @@
+.headerWrapper {
+    height: 100vh;
+    background: url("/images/mobile-min.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.topTitle {
+    padding-top: 128px;
+    margin: 0;
+
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FEFEFE;
+
+}
+
+.bottomTitle {
+    font-family: Dana;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #FEFEFE;
+}
+
+.actionWrapper {
+    position: absolute;
+    bottom: 95px;
+}
+
+.actionButton {
+    width: 145px;
+    height: 49px;
+    background: #25BDBE;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+}
+
+.actionButton::selection {
+    border: none;
+    outline: none;
+}
+
+.actionButton div {
+    font-family: Dana;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.description {
+    /*font-family: Dana-FaNum;*/
+    font-family: Dana;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+    .headerWrapper {
+        height: 100vh;
+        background: url("/images/first view.png") no-repeat center center fixed !important;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1920px) {
+    .headerWrapper {
+        /*height: 100vh;*/
+        /*background: url(/images/first view.png) no-repeat center center fixed;*/
+        /*background-image: url(/images/first view.png) !important;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+        /*text-align: center;*/
+    }
+}
