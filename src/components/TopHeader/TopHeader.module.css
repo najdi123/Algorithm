@@ -99,7 +99,7 @@
 @media (min-width: 1200px) {
 }
 
-@media (min-width: 1910px) {
+@media (min-width: 1900px) {
     .headerWrapper {
         /*text-align: right !important;*/
     }
@@ -110,7 +110,8 @@
 
         position: absolute;
         height: 77px;
-        left: 945px;
+        /*left: 945px;*/
+        right: 130px;
         top: 272px;
 
         padding: 0;
@@ -126,13 +127,13 @@
 
         position: absolute;
         height: 60px;
-        left: 1172px;
+        right: 130px;
         top: 372px;
     }
     .actionWrapper {
         display: flex;
         right: 130px;
-        bottom: 456px;
+        bottom: 360px;
     }
     .actionButton {
         width: 207px;
@@ -150,6 +151,6 @@
         font-weight: 300;
         font-size: 20px;
         line-height: 30px;
-        padding-right: 25px;
+        padding-right: 29px;
     }
 }

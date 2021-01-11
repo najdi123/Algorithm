@@ -8,6 +8,9 @@ const Index = () => {
                 <button className={styles.actionButton}>
                     شروع سرمایه گذاری
                 </button>
+                <div className={styles.phoneNumber}>
+                    02166972655
+                </div>
             </div>
             <div className={styles.navLogo}>
                 سبدگردانی الگوریتم
