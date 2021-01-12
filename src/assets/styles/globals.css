@@ -1,6 +1,5 @@
 @font-face {
   font-family: "untitled-font-1";
-  /*src:url("fonts/untitled-font-1.eot");*/
   src:url("/public/fontIcons/untitled-font-1.eot");
   src:url("/public/fontIcons/untitled-font-1.eot?#iefix") format("embedded-opentype"),
   url("/public/fontIcons/untitled-font-1.woff") format("woff"),
@@ -37,9 +36,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-blue-phone:before {
+.icon-advisors-icon:before {
   content: "\61";
 }
+.icon-investors-icon:before {
+  content: "\62";
+}
+.icon-investment-icon:before {
+  content: "\63";
+}
+.icon-contact-phone:before {
+  content: "\64";
+}
+.icon-blue-phone:before {
+  content: "\65";
+}
+
 
 @font-face {
   font-family: Dana;
