@@ -5,8 +5,20 @@
 
 .main {
 }
+.conatctPhone{
+    width: 56px;
+    height: 56px;
+    z-index: 99999;
+    position: fixed;
+    top: 89vh;
+    right: 3vw;
+}
 
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+    .conatctPhone{
+        display: none;
+    }
+}
 @media (min-width: 768px) {  }
 @media (min-width: 992px) {  }
 @media (min-width: 1200px) {  }

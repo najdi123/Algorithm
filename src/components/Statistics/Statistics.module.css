@@ -1,0 +1,13 @@
+.statsWrapper{
+    padding-top: 40px;
+    text-align: center;
+}
+.title{
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #1A1061;
+}

@@ -4,11 +4,12 @@ const Index = () => {
     return (
         <div className={styles.navbarWrapper}>
 
-            <div>
+            <div className={styles.leftBox}>
                 <button className={styles.actionButton}>
                     شروع سرمایه گذاری
                 </button>
-                <div className={styles.phoneNumber}>
+                <div className={`${styles.phoneNumber} `}>
+                    <i className="icon icon-blue-phone"></i>
                     02166972655
                 </div>
             </div>

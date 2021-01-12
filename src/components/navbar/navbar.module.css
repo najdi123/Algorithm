@@ -61,11 +61,69 @@
 @media (min-width: 576px) {  }
 @media (min-width: 768px) {  }
 @media (min-width: 992px) {  }
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+    .navbarWrapper{
+        height: 127px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .navLogo{
+        position: absolute;
+        /*width: 183px;*/
+        height: 38px;
+        /*left: 1458px;*/
+        right: 240px;
+        top: 45.87px;
+
+        font-family: Dana;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 38px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: right;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .actionButton{
+        position: absolute;
+        width: 250px;
+        height: 70px;
+        left: 346px;
+        top: 28px;
+
+        margin: 0;
+
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 46px;
+    }
+    .phoneNumber{
+        display: block;
+
+        position: absolute;
+        width: 124px;
+        height: 36px;
+        left: 154px;
+        top: 50px;
+
+        font-family: Dana;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+
+        /*padding-right: 35px;*/
+    }
+}
 @media (min-width: 1900px) {
 
     .navbarWrapper{
         height: 127px;
+        border-radius: 0px 0px 30px 30px;
     }
     .navLogo{
         position: absolute;
