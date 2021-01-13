@@ -129,6 +129,16 @@
     .description{
         margin: 0 auto;
     }
+    .investors{
+        order: 1;
+    }
+    .investments{
+        order: 2;
+    }
+    .advisors{
+        order: 3;
+    }
+
 }
 
 @media (min-width: 992px) {

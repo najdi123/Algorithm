@@ -104,6 +104,7 @@
     }
     .phoneNumber{
         display: flex;
+        /*align-items: center;*/
 
         position: absolute;
         width: 124px;
@@ -120,7 +121,7 @@
 
     }
     .phoneIcon{
-
+    margin-bottom: 10px;
     }
 }
 @media (min-width: 1900px) {

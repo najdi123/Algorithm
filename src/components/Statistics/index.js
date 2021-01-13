@@ -5,7 +5,7 @@ const Index = () => {
         <div className={styles.statsWrapper}>
             <h1 className={styles.title}>الگوریتم، ضامن سرمایه گذاری شما</h1>
             <div className={styles.statItems}>
-                <div className={styles.item}>
+                <div className={`${styles.item} ${styles.investments}`}>
                     <img className={styles.icon} src="/images/investment-icon.svg" alt=""/>
                     <div className={styles.text}>
                         <h4 className={styles.statTitle}>
@@ -17,7 +17,7 @@ const Index = () => {
 
                 </div>
 
-                <div className={styles.item}>
+                <div className={`${styles.item} ${styles.investors}`}>
                     <img className={styles.icon} src="/images/investors-icon.svg" alt=""/>
                     <div className={styles.text}>
                         <h4 className={styles.statTitle}>
@@ -28,7 +28,7 @@ const Index = () => {
 
                 </div>
 
-                <div className={styles.item}>
+                <div className={`${styles.item} ${styles.advisors}`}>
                     <img className={styles.icon} src="/images/advisors-icon.svg" alt=""/>
                     <div className={styles.text}>
                         <h4 className={styles.statTitle}>

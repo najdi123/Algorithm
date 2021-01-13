@@ -1,0 +1,126 @@
+.wrapper{
+    background: #E5E5E5;
+    text-align: center;
+
+    /*position: relative;*/
+}
+.laptopBackground{
+    background: url("/images/laptop.svg");
+    width: 351.1px;
+    height: 207.05px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.title{
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*text-align: right;*/
+    letter-spacing: -0.015em;
+
+    color: #1A1061;
+
+    /*position: absolute;*/
+    padding: 29px 0 25px;
+    margin: 0;
+}
+.displayOnLarge{
+    display: none;
+}
+.description{
+    padding: 22px 27px;
+
+    font-family: Dana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /*line-height: 246%;*/
+    line-height: 366%;
+    /* or 30px */
+    height: 310px;
+
+    text-align: center;
+
+    color: #4E4E4E;
+}
+.wrapper{}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+    .wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .displayOnLarge{
+        display: block;
+    }
+    .displayOnSmall{
+        display: none;
+    }
+}
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1900px) {
+    .wrapper{
+        padding-bottom: 177px;
+        position: relative;
+        height: 838px;
+    }
+    .title{
+        padding: 162px 141px 25px 0;
+        margin: 0;
+        font-size: 50px;
+        line-height: 78px;
+        display: flex;
+    }
+    .displayOnSmall{
+        display: none;
+    }
+    .description{
+        width: 920px;
+        height: 274px;
+        font-size: 24px;
+        line-height: 246%;
+        /* or 59px */
+
+
+        color: #4E4E4E;
+
+        padding: 0;
+        margin: 0 142px 0 0;
+        /*margin: 0;*/
+        text-align: right;
+
+
+    }
+    .laptopBackground{
+
+        width: 854px;
+        height: 503.62px;
+
+        margin: 157px 0 0 56px;
+        /*top: 170px;*/
+        /*left: 155px;*/
+
+
+    }
+    .topOrLeft{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bottomOrRight{
+        position: absolute;
+        /*top: 162px;*/
+        /*right: 141px;*/
+        top: 0;
+        right: 0;
+    }
+}
