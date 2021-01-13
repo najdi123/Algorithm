@@ -16,6 +16,7 @@ const Index = () => {
             </div>
             <div className={styles.navLogo}>
                 سبدگردانی الگوریتم
+                <img className={styles.logo} src="/images/nav-logo.svg" alt=""/>
             </div>
         </div>
     );
