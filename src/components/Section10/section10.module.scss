@@ -1,0 +1,192 @@
+.wrapper{
+  background: url("/images/section10/bg-box-mobile-size.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 95vw;
+  height: 89vw;
+  //padding: 14px;
+  margin: 94px auto;
+
+
+  //display: flex;
+  //align-items: center;
+  text-align: center;
+  .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1A1061;
+
+    margin: 0;
+    padding: 20vw 0 0;
+  }
+  .actionButton{
+    width: 238px;
+    height: 63px;
+    background: #25BDBE;
+    box-shadow: 0px 10px 20px rgba(31, 177, 139, 0.35);
+    border-radius: 12px;
+
+    border: none;
+    outline: none;
+
+    margin: 26px auto 7px;
+
+    font-family: Dana;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+
+    color: #FFFFFF;
+  }
+  .actionButton::selection{
+    border: none;
+    outline: none;
+  }
+  .info{
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    .email{
+      display: flex;
+      //justify-content: center;
+      margin: 21px 0 0 0;
+      direction: ltr;
+      .emailAddress{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #1A1061;
+
+        margin: 0;
+        padding: 0 0 0 10px;
+      }
+
+    }
+    .phone{
+      display: flex;
+      //justify-content: center;
+      margin: 21px 0 0 0;
+      direction: ltr;
+      .phoneNumber{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #1A1061;
+
+        margin: 0;
+        padding: 0 0 0 10px;
+        direction: ltr !important;
+      }
+    }
+
+  }
+
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1900px) {
+  .wrapper{
+    background: url("/images/section10/bg-box-large-size.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    //width: 95vw;
+    //height: 89vw;
+    width: 70%;
+    height: 554px;
+    height: 28.8vw;
+    padding: 70px 0;
+    margin: 153px 325px;
+
+
+    //display: flex;
+    //align-items: center;
+    text-align: center;
+    .title{
+      font-size: 40px;
+      line-height: 63px;
+
+      margin: 0;
+      padding: 70px 0 0;
+    }
+    .actionButton{
+      width: 302px;
+      height: 71px;
+      margin: 35px auto 7px;
+
+      font-family: IRANYekanWeb;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 41px;
+
+
+      color: #FFFFFF;
+    }
+    .actionButton::selection{
+      border: none;
+      outline: none;
+    }
+    .info{
+      display: flex;
+      width: fit-content;
+      margin: 0 auto;
+      justify-content: center;
+      flex-direction: row-reverse;
+      align-items: center;
+      .email{
+        display: flex;
+        //justify-content: center;
+        margin: 21px 0 0 0;
+        direction: ltr;
+        img{
+          width: 37.28px;
+          height: 37.28px;
+        }
+        .emailAddress{
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 38px;
+
+          margin: 0;
+          padding: 0 45px 0 10px;
+        }
+
+      }
+      .phone{
+        display: flex;
+        //justify-content: center;
+        margin: 21px 0 0 0;
+        direction: ltr;
+        img{
+          width: 37.28px;
+          height: 37.28px;
+        }
+        .phoneNumber{
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 38px;
+          margin: 0;
+          padding: 0 0 0 10px;
+        }
+      }
+
+    }
+
+  }
+}
