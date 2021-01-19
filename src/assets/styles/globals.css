@@ -184,6 +184,7 @@ input#email-icon{
   text-indent: 25px;
   padding: 14px;
 }
+
 @media (min-width: 1200px) {
   input#email-icon,input#phone-icon,input#user-icon{
     background-size: 30px 30px;
