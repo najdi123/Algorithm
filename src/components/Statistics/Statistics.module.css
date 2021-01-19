@@ -142,6 +142,37 @@
 }
 
 @media (min-width: 992px) {
+    .title {
+        font-family: Dana;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 37.5px;
+        line-height: 58px;
+
+        margin: 0 0 50px;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .statTitle{
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .detail{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .description{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -152,13 +183,8 @@
         padding-top: 0;
     }
     .title {
-        font-family: Dana;
-        font-style: normal;
-        font-weight: 600;
         font-size: 50px;
         line-height: 77px;
-
-        margin: 0 0 50px;
     }
     .statItems {
     }
@@ -172,24 +198,14 @@
     .text{
     }
     .statTitle{
-        margin: 0 auto;
-        width: fit-content;
-        align-items: center;
-
-        font-style: normal;
-        font-weight: bold;
         font-size: 40px;
         line-height: 63px;
     }
     .detail{
-        font-style: normal;
-        font-weight: 500;
         font-size: 24px;
         line-height: 37px;
     }
     .description{
-        font-style: normal;
-        font-weight: 300;
         font-size: 32px;
         line-height: 48px;
     }

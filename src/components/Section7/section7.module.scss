@@ -1,0 +1,24 @@
+.wrapper{
+  //width: 360px;
+  height: 632px;
+  background: radial-gradient(96.78% 490.98% at 44.21% 53.69%, #00072D 0%, #2B3D9E 100%);
+  text-align: center;
+
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {
+  .wrapper{
+    height: 780px;
+  }
+}
+@media (min-width: 1900px) {
+  .wrapper{
+    height: 1038px;
+  }
+
+}

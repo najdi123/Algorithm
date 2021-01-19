@@ -1,0 +1,159 @@
+.wrapper{
+  text-align: center;
+
+  background: #FEFEFE;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  margin: 27px;
+
+  .title{
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: -0.015em;
+
+    color: #1A1061;
+
+    margin: 0;
+    padding: 30px 0 20px;
+  }
+  .item{
+
+  }
+  .icon{
+    width: 100px;
+    height: 100px;
+    margin-top: 26px;
+  }
+  .itemTitle{
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #1A1061;
+  }
+  .description{
+    font-family: Dana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 195.5%;
+    /* or 23px */
+    color: #686868;
+
+    margin: 0 48px;
+    padding: 0 0 23px;
+    border-bottom: 1px solid #24B8B9;
+  }
+  .noBorder{
+    border: none;
+  }
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+  .wrapper {
+    background: #F8F8F8;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+
+
+
+    .title {
+      font-size: 25px;
+      line-height: 39px;
+      /* identical to box height */
+      margin: 0;
+      padding: 30px 0 20px;
+    }
+
+    .itemsWrapper {
+      display: flex;
+    }
+
+    .icon {
+      width: 112px;
+      height: 112px;
+      margin-top: 35px;
+    }
+
+    .itemTitle {
+      font-size: 20px;
+      line-height: 38px;
+    }
+
+    .description {
+      font-size: 18px;
+      line-height: 195.5%;
+
+      margin: 0 20px;
+      padding-bottom: 100px;
+      border: none;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .wrapper {
+    margin: 0;
+    padding: 0 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    margin: 0;
+    padding: 0 80px;
+    .description {
+      margin: 0 40px;
+      padding-bottom: 140px;
+    }
+  }
+}
+@media (min-width: 1900px) {
+  .wrapper {
+    background: #F8F8F8;
+    text-align: center;
+    margin: 0;
+    padding: 0 140px;
+
+    .title {
+      font-size: 50px;
+      line-height: 78px;
+      /* identical to box height */
+      margin: 0;
+      padding: 41px 0 20px;
+    }
+
+    .itemsWrapper {
+      display: flex;
+    }
+
+    .icon {
+      width: 152px;
+      height: 152px;
+      margin-top: 71px;
+    }
+
+    .itemTitle {
+      font-size: 24px;
+      line-height: 38px;
+    }
+
+    .description {
+      font-size: 24px;
+      line-height: 195.5%;
+
+      margin: 0 100px;
+      padding-bottom: 170px;
+    }
+  }
+}

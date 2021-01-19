@@ -1,0 +1,141 @@
+.wrapper{
+  text-align: center;
+  padding: 47px 27px;
+  .title1{
+    margin: 0;
+    font-family: Dana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #1A1061;
+  }
+  .title2{
+    margin: 0 auto;
+
+    font-family: Dana;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #1A1061;
+
+    width: 301px;
+  }
+  .description{
+    width: 306px;
+    margin: 12px auto;
+
+    font-family: Dana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 230%;
+    /* or 29px */
+
+    color: #686868;
+  }
+}
+@media (min-width: 576px) {
+
+  .wrapper {
+    padding: 52px 60px;
+
+    .title1 {
+      font-size: 26px;
+      line-height: 44px;
+    }
+
+    .title2 {
+      font-size: 24px;
+      line-height: 44px;
+      width: fit-content;
+    }
+
+    .description {
+      width: 100%;
+      margin: 25px 0;
+      font-size: 13.5px;
+      line-height: 246%;
+      /* or 59px */
+      text-align: right;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 52px 60px;
+
+    .title1 {
+      font-size: 26px;
+      line-height: 44px;
+    }
+
+    .title2 {
+      font-size: 24px;
+      line-height: 44px;
+      width: fit-content;
+    }
+
+    .description {
+      width: 100%;
+      margin: 34px 0;
+      font-size: 13.5px;
+      line-height: 246%;
+      /* or 59px */
+      text-align: right;
+    }
+  }
+}
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {
+  .wrapper {
+    padding: 70px 110px;
+
+    .title1 {
+      font-size: 37.5px;
+      line-height: 58.5px;
+    }
+
+    .title2 {
+      font-size: 37.5px;
+      line-height: 58.5px;
+      width: fit-content;
+    }
+
+    .description {
+      width: 100%;
+      margin: 45px 0;
+      font-size: 18px;
+      line-height: 246%;
+      /* or 59px */
+      text-align: right;
+    }
+  }
+}
+@media (min-width: 1900px) {
+  .wrapper {
+    padding: 90px 140px;
+
+    .title1 {
+      font-size: 50px;
+      line-height: 78px;
+    }
+
+    .title2 {
+      font-size: 50px;
+      line-height: 78px;
+      width: fit-content;
+    }
+
+    .description {
+      width: 100%;
+      margin: 60px 0;
+      font-size: 24px;
+      line-height: 246%;
+      /* or 59px */
+    }
+  }
+}
