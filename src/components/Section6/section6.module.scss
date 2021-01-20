@@ -162,6 +162,7 @@
 
 @media (min-width: 992px) {
   .wrapper{
+    padding: 0 0 60px;
     .showOnSmallScreen{
       display: none;
     }
@@ -183,7 +184,7 @@
 
   .wrapper {
     //text-align: center;
-    padding: 0 30px;
+    padding: 0 30px 60px;
 
 
     .title {
