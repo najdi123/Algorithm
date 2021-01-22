@@ -23,12 +23,14 @@ const Index = () => {
             <div className={styles.bottomSection}>
                 <div className={styles.intro}>
                     <img src="/images/footer/algorithm-icon.svg" alt=""/>
-                    <h3>
-                        سبدگردان الگوریتم
-                    </h3>
-                    <h4>
-                        همپای هم رشد میکنیم
-                    </h4>
+                    <div>
+                        <h3>
+                            سبدگردان الگوریتم
+                        </h3>
+                        <h4>
+                            همپای هم رشد میکنیم
+                        </h4>
+                    </div>
                 </div>
                 <div className={styles.contactUs}>
                     <div className={styles.topTitle}>
@@ -57,6 +59,9 @@ const Index = () => {
                         <p className={styles.address}> خیابان ولیعصر، خیابان بزرگمهر، پلاک 16 طبقه چهارم، واحد 411</p>
                     </div>
 
+
+                </div>
+                <div className={styles.last}>
                     <div className={styles.bottomTitle}>
                         <div className={styles.border}></div>
                         <h4 className={styles.contactUsTitle}>
@@ -71,6 +76,13 @@ const Index = () => {
                         <img src="/images/footer/instagram-logo.svg" alt=""/>
                     </div>
                 </div>
+            </div>
+
+            <div className={styles.designedByHarmony}>
+                <p>
+                    طراحی و اجرا توسط آژانس دیجیتال مارکتینگ
+                    <span> هارمونی</span>
+                </p>
             </div>
         </div>
     );
