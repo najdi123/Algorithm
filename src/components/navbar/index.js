@@ -9,7 +9,7 @@ const Index = () => {
                     شروع سرمایه گذاری
                 </button>
                 <div className={`${styles.phoneNumber} `}>
-                    <i className="icon-contact-phone"></i>
+                    {/*<i className="icon-contact-phone"></i>*/}
                     <img className={styles.phoneIcon} src="/images/blue-phone.svg" alt=""/>
                     02166972655
                 </div>

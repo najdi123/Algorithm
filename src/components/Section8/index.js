@@ -14,7 +14,7 @@ const Index = () => {
     // };
     const settings = {
         centerMode: true,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         arrows: false,
@@ -51,7 +51,7 @@ const Index = () => {
                 },
             },
             {
-                breakpoint: 840,
+                breakpoint: 850,
                 settings: {
                     slidesToShow: 2,
                     centerPadding: "0%",

@@ -203,11 +203,3 @@ input#email-icon{
 }
 
 
-/*section8 carousel*/
-@media (min-width: 1470px) {
-
-    .slick-initialized{
-      margin: 0 160px;
-    }
-
-}

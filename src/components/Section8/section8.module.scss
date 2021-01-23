@@ -1,9 +1,10 @@
-.wrapper{
+.wrapper {
   text-align: center;
+  height: 540px;
   //display: flex;
   //flex-direction: column;
   //justify-content: center;
-  .title1{
+  .title1 {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -12,7 +13,8 @@
 
     margin: 48px 0 0;
   }
-  .title2{
+
+  .title2 {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -21,11 +23,13 @@
 
     margin: 18px 0 0;
   }
-  .carouselWrapper{
+
+  .carouselWrapper {
     //display: flex;
     //justify-content: center;
     width: 262px !important;
-    .carousel{
+
+    .carousel {
       //width: 260px;
       width: fit-content;
       //height: 382px;
@@ -35,7 +39,8 @@
 
       margin: 39px 0 20px;
       padding-top: 1px;
-      .advisorImage{
+
+      .advisorImage {
         width: 105.91px;
         height: 105.91px;
         //border: 6px solid #25BDBE;
@@ -43,7 +48,8 @@
         //padding-top: 1px;
         margin: 24px auto 0;
       }
-      .name{
+
+      .name {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -52,7 +58,8 @@
 
         margin: 11px auto 0;
       }
-      .title{
+
+      .title {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -61,14 +68,16 @@
 
         margin: 0;
       }
-      .border{
+
+      .border {
         width: 138.44px;
         height: 0px;
         border: 2px solid #25BDBE;
 
         margin: 11.3px auto;
       }
-      .description{
+
+      .description {
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -83,50 +92,107 @@
   }
 
 }
+
 @media (min-width: 576px) {
+  .wrapper {
+    height: 640px;
+  }
 }
-@media (min-width: 768px) {  }
-@media (min-width: 992px) {  }
-@media (min-width: 1200px) {
-  .wrapper{
-    div{
-      //margin: 2px 100px;
-      .carouselWrapper{
 
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 0 20px;
+    .title1 {
+      font-size: 30px;
+      line-height: 60px;
 
-      }
+      margin: 65px 0 0;
+    }
+
+    .title2 {
+      font-size: 27px;
+      line-height: 45px;
+
+      margin: 10px 0 45px;
     }
   }
 }
+
+@media (min-width: 992px) {
+  .wrapper {
+    margin: 0 60px;
+    .title1 {
+      font-size: 30px;
+      line-height: 60px;
+
+      margin: 65px 0 0;
+    }
+
+    .title2 {
+      font-size: 27px;
+      line-height: 45px;
+
+      margin: 10px 0 45px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    height: 740px;
+    margin: 0 50px;
+
+    .title1 {
+      font-size: 35px;
+      line-height: 67px;
+
+      margin: 75px 0 0;
+    }
+
+    .title2 {
+      font-size: 35px;
+      line-height: 55px;
+
+      margin: 10px 0 55px;
+    }
+  }
+}
+
+@media (min-width: 1470px) {
+
+  .wrapper {
+    margin: 0 160px;
+  }
+
+}
+
 @media (min-width: 1900px) {
-  .wrapper{
+  .wrapper {
     text-align: center;
+    height: 840px;
     //display: flex;
     //flex-direction: column;
     //justify-content: center;
-    .title1{
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 28px;
-      color: #1A1061;
+    .title1 {
+      font-size: 50px;
+      line-height: 78px;
 
-      margin: 48px 0 0;
+      margin: 95px 0 0;
     }
-    .title2{
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 27px;
-      color: #1A1061;
 
-      margin: 18px 0 0;
+    .title2 {
+      font-size: 40px;
+      line-height: 61px;
+
+      margin: 10px 0 55px;
     }
-    .carouselWrapper{
+
+    .carouselWrapper {
       //display: flex;
       //justify-content: center;
       width: 384px !important;
-      .carousel{
+
+      .carousel {
         //width: 260px;
         width: 384px;
         //height: 382px;
@@ -136,19 +202,22 @@
 
         margin: 39px 0 20px;
         padding-top: 1px;
-        .advisorImage{
+
+        .advisorImage {
           width: 124.28px;
           height: 124.28px;
           margin: 39px auto 0;
         }
-        .name{
+
+        .name {
 
           font-size: 24px;
           line-height: 38px;
 
           margin: 23px auto 0;
         }
-        .title{
+
+        .title {
           font-style: normal;
           font-weight: normal;
           font-size: 16px;
@@ -157,14 +226,16 @@
 
           margin: 0;
         }
-        .border{
+
+        .border {
           width: 163px;
           height: 0px;
           border: 2px solid #25BDBE;
 
           margin: 14.5px auto 0;
         }
-        .description{
+
+        .description {
           font-size: 14px;
           line-height: 29px;
 
