@@ -4,13 +4,79 @@ import Slider from "react-slick";
 
 const Index = () => {
 
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     centerMode: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // };
     const settings = {
+        centerMode: true,
         dots: true,
         infinite: true,
         speed: 500,
-        centerMode: true,
+        arrows: false,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        centerPadding: "22%",
+        responsive: [
+            {
+                breakpoint: 2500,
+                settings: {
+                    // centerPadding: "22%",
+
+                    slidesToShow: 4,
+                    centerPadding: "0%",
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 1800,
+                settings: {
+                    // centerPadding: "22%",
+
+                    slidesToShow: 4,
+                    centerPadding: "0%",
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    centerPadding: "0%",
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 840,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: "0%",
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 580,
+                settings: {
+                    centerPadding: "17%",
+                },
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    centerPadding: "15%",
+                },
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    centerPadding: "8%",
+                },
+            },
+        ],
     };
     return (
         <div className={styles.wrapper}>
@@ -62,19 +128,41 @@ const Index = () => {
                     </div>
                     <div className={styles.carouselWrapper}>
                         <div className={styles.carousel}>
-                            <img className={styles.advisorImage} src="/images/section8/ArashGholizade.svg" alt=""/>
+                            <img className={styles.advisorImage} src="/images/section8/NajibeKhoshroo.svg" alt=""/>
                             <h2 className={styles.name}>
-                                آرش قلی زاده
+                                نجیبه خوشرو
                             </h2>
                             <h3 className={styles.title}>
-                                عضو هیئت مدیره و مدیرعامل
+                                مدیرگروه مشاور سرمایه‌گذاری
                             </h3>
                             <div className={styles.border}></div>
                             <p className={styles.description}>
-                                آرش آقاقلیزاده دانش آموخته MBA است و سطح
-                                دو CFA را گذرانده است. وی در سمت مدیرعامل، هدایت شرکت را
-                                عهده دار است. تجارب حرفه‌ای و فعالیتهای علمی آرش آقاقلیزاده
-                                در حوزه سرمایه‌گذاری، در کنار ذهن فعال و پر انرژی وی، باعث
+                                آرش آقاقلیزاده دانش آموخته MBA
+                                است و سطح دو CFA را گذرانده است. وی در
+                                سمت مدیرعامل، هدایت شرکت را عهده دار
+                                است. تجارب حرفه‌ای و فعالیتهای علمی
+                                آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
+                                در کنار ذهن فعال و پر انرژی وی، باعث
+                            </p>
+                        </div>
+                    </div>
+                    <div className={styles.carouselWrapper}>
+                        <div className={styles.carousel}>
+                            <img className={styles.advisorImage} src="/images/section8/BahmanEsmaeeli.svg" alt=""/>
+                            <h2 className={styles.name}>
+                                بهمن اسماعیلی
+                            </h2>
+                            <h3 className={styles.title}>
+                                مدیر سرمایه‌گذاری
+                            </h3>
+                            <div className={styles.border}></div>
+                            <p className={styles.description}>
+                                آرش آقاقلیزاده دانش آموخته MBA
+                                است و سطح دو CFA را گذرانده است. وی در
+                                سمت مدیرعامل، هدایت شرکت را عهده دار
+                                است. تجارب حرفه‌ای و فعالیتهای علمی
+                                آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
+                                در کنار ذهن فعال و پر انرژی وی، باعث
                             </p>
                         </div>
                     </div>

@@ -9,6 +9,7 @@ import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Section7 from "../components/Section7";
 import Section8 from "../components/Section8";
+// import Section85 from "../components/section85";
 import Section9 from "../components/Section9";
 import Section10 from "../components/Section10";
 import Footer from "../components/Footer";
@@ -30,7 +31,9 @@ export default function Home() {
         <Section5 />
         <Section6 />
         <Section7 />
-        {/*<Section8 />*/}
+        <Section8 />
+        {/*<Section85 />*/}
+
         <Section9 />
         <Section10 />
         <Footer />
