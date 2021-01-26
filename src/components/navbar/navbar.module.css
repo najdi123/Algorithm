@@ -1,6 +1,7 @@
 .navbarWrapper{
     display: flex;
     justify-content: space-between;
+    direction: ltr;
 
     position: fixed;
     width: 100%;
