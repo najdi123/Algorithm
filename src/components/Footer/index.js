@@ -6,6 +6,7 @@ const Index = () => {
         <div className={styles.wrapper}>
            <div className="container-fluid">
                <div className={styles.topSection}>
+                   <div className="container">
                    <h3 className={styles.title}>
                        همکاران الگوریتم
                    </h3>
@@ -19,6 +20,7 @@ const Index = () => {
                            <img className={styles.logo4} src="/images/footer/sarmaye-logo.svg" alt=""/>
                            <img className={styles.logo5} src="/images/footer/kharazmi2-logo.svg" alt=""/>
                        </div>
+                   </div>
                    </div>
                </div>
                <div className={styles.bottomSection}>
