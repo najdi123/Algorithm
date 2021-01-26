@@ -4,7 +4,7 @@ import styles from "./MutualFunds.module.css";
 const Index = () => {
     return (
         <div className={styles.wrapper}>
-          <div className="container">
+          <div className={`${styles.container} container`}>
               <div className={styles.topOrLeft}>
                   <h3 className={`${styles.title} ${styles.displayOnSmall}`}>چرا صندوق های سرمایه گذاری؟</h3>
                   <div className={styles.laptopBackground}>

@@ -4,6 +4,7 @@
 
     /*position: relative;*/
     /*padding: 0 27px 60px;*/
+    overflow: hidden;
 }
 .laptopBackground{
     background: url("/images/laptop.svg");
@@ -77,14 +78,14 @@
 
 }
 @media (min-width: 768px) {
-    .wrapper{
+    .wrapper .container{
         display: flex;
         flex-direction: row-reverse;
         /*align-items: start;*/
 
         justify-content: flex-end;
 
-        position: relative;
+        /*position: relative;*/
         height: 438px;
         /*padding: 0 60px;*/
     }
@@ -96,7 +97,7 @@
     }
 
     .topOrLeft{
-        position: absolute;
+        /*position: absolute;*/
         top: 0;
         left: 0;
     }
@@ -190,14 +191,14 @@
 }
 @media (min-width: 1900px) {
     .wrapper{
-        position: relative;
+        /*position: relative;*/
         /*height: 838px;*/
         height: fit-content;
         /*padding: 0 140px;*/
         padding: 162px 0 250px;
     }
     .topOrLeft{
-        position: absolute;
+        /*position: absolute;*/
         top: 0;
         left: 0;
     }
@@ -231,7 +232,7 @@
     .laptopBackground{
         width: 854px;
         height: 503.62px;
-        margin: 157px 0 0 56px;
+        margin: 0 -60px 0 0;
     }
 
 }
