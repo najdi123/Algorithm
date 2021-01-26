@@ -132,12 +132,23 @@
   url("../fonts/dana/woff/dana-fanum-black.woff") format("woff"),
   url("../fonts/dana/ttf/dana-fanum-black.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: iranSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/iranSans/eot/IRANSansWeb(FaNum).eot?") format("eot"),
+  url("../fonts/iranSans/woff2/IRANSansWeb(FaNum).woff2") format("woff2"),
+  url("../fonts/iranSans/woff/IRANSansWeb(FaNum).woff") format("woff"),
+  url("../fonts/iranSans/ttf/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: Dana !important;
-
+  direction: rtl;
 
 }
 
@@ -148,6 +159,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 1691px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1596px !important;
+    margin: 0 auto !important;
+    /*margin: 0 !important;*/
+    padding: 0 !important;
+  }
+}
+.container-fluid{
+  padding: 0 !important;
 }
 
 /*section6 carousel styles*/

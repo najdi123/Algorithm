@@ -89,6 +89,13 @@
         padding-bottom: 36px;
       }
     }
+    .carousel:hover{
+      background: #1A1061;
+
+      .name,.title,.description{
+        color: white;
+      }
+    }
   }
 
 }
@@ -101,7 +108,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    margin: 0 20px;
+    //margin: 0 20px;
     .title1 {
       font-size: 30px;
       line-height: 60px;
@@ -120,7 +127,7 @@
 
 @media (min-width: 992px) {
   .wrapper {
-    margin: 0 60px;
+    //margin: 0 60px;
     .title1 {
       font-size: 30px;
       line-height: 60px;
@@ -140,7 +147,7 @@
 @media (min-width: 1200px) {
   .wrapper {
     height: 740px;
-    margin: 0 50px;
+    //margin: 0 50px;
 
     .title1 {
       font-size: 35px;
@@ -161,7 +168,7 @@
 @media (min-width: 1470px) {
 
   .wrapper {
-    margin: 0 160px;
+    //margin: 0 150px;
   }
 
 }
@@ -169,7 +176,8 @@
 @media (min-width: 1900px) {
   .wrapper {
     text-align: center;
-    height: 840px;
+    //height: 840px;
+    margin: 95px 0 170px;
     //display: flex;
     //flex-direction: column;
     //justify-content: center;
@@ -177,20 +185,21 @@
       font-size: 50px;
       line-height: 78px;
 
-      margin: 95px 0 0;
+      margin: 0;
     }
 
     .title2 {
       font-size: 40px;
       line-height: 61px;
 
-      margin: 10px 0 55px;
+      margin: 10px 0 0;
     }
 
     .carouselWrapper {
       //display: flex;
       //justify-content: center;
       width: 384px !important;
+      margin: 95px 0 20px;
 
       .carousel {
         //width: 260px;
@@ -200,7 +209,8 @@
         box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.25);
         border-radius: 18px;
 
-        margin: 39px 0 20px;
+
+        margin: 0;
         padding-top: 1px;
 
         .advisorImage {

@@ -12,8 +12,9 @@
     align-items: center;
     text-align: center;
 
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
+.headerWrapper .container{}
 
 .topTitle {
     padding-top: 128px;
@@ -27,6 +28,8 @@
     /* identical to box height */
 
     color: #FEFEFE;
+
+    direction: rtl;
 }
 
 .bottomTitle {
@@ -44,6 +47,11 @@
     position: absolute;
     /*bottom: 95px;*/
     bottom: 14vh;
+
+    transform: translateX(-50%);
+    left: 50%;
+
+    width: fit-content;
 }
 
 .actionButton {
@@ -98,8 +106,9 @@
         background-position-x: -533px;
 
         align-items: end;
+        text-align: right;
 
-        padding: 0 40px;
+        /*padding: 0 40px;*/
     }
 
     .topTitle {
@@ -126,6 +135,7 @@
     .actionWrapper {
         display: flex;
         position: inherit;
+        -webkit-transform: translateX(0);
         margin: 24px 0;
         align-items: center;
     }
@@ -151,7 +161,7 @@
 
 @media (min-width: 768px) {
     .headerWrapper {
-        padding: 0 60px;
+        /*padding: 0 60px;*/
         background-position-x: -320px;
     }
 
@@ -159,7 +169,7 @@
 
 @media (min-width: 992px) {
     .headerWrapper {
-        padding: 0 80px;
+        /*padding: 0 80px;*/
         /*background-position-x: -20px;*/
         background-position: center;
     }
@@ -168,8 +178,9 @@
 @media (min-width: 1200px) {
 
     .headerWrapper {
-        padding: 0 120px;
+        /*padding: 0 120px;*/
         /*background-position-x: -273px;*/
+        padding: 272px 0 0;
     }
 
     .topTitle {
@@ -178,7 +189,7 @@
         line-height: 77px;
 
         height: 77px;
-        margin: 272px 0 0 0;
+        margin: 0;
     }
     .bottomTitle{
         padding: 0;
@@ -216,14 +227,15 @@
 }
 @media (min-width: 1600px) {
     .headerWrapper {
-        padding: 0 130px;
+        /*padding: 0 130px;*/
         background-position: center;
     }
 }
 
 @media (min-width: 1900px) {
     .headerWrapper {
-        padding: 0 140px;
+        /*padding: 0 140px;*/
+
     }
     .topTitle {
         font-weight: 600;
@@ -244,8 +256,10 @@
     }
     .actionWrapper {
         display: flex;
-        right: 130px;
-        top: 456px;
+        /*justify-content: flex-end;*/
+        /*right: 0;*/
+        /*top: 456px;*/
+        /*position: static;*/
     }
     .actionButton {
         width: 207px;

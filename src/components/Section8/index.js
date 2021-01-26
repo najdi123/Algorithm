@@ -80,95 +80,97 @@ const Index = () => {
     };
     return (
         <div className={styles.wrapper}>
-            <h2 className={styles.title1}>
-                همپای هم رشد میکنیم
-            </h2>
-            <h3 className={styles.title2}>
-                تیم همپای شما در الگوریتم
-            </h3>
-            <div >
-                <Slider {...settings}>
-                    <div className={styles.carouselWrapper}>
-                        <div className={styles.carousel}>
-                            <img className={styles.advisorImage} src="/images/section8/ArashGholizade.svg" alt=""/>
-                            <h2 className={styles.name}>
-                                آرش قلی زاده
-                            </h2>
-                            <h3 className={styles.title}>
-                                عضو هیئت مدیره و مدیرعامل
-                            </h3>
-                            <div className={styles.border}></div>
-                            <p className={styles.description}>
-                                آرش آقاقلیزاده دانش آموخته MBA است و سطح
-                                دو CFA را گذرانده است. وی در سمت مدیرعامل، هدایت شرکت را
-                                عهده دار است. تجارب حرفه‌ای و فعالیتهای علمی آرش آقاقلیزاده
-                                در حوزه سرمایه‌گذاری، در کنار ذهن فعال و پر انرژی وی، باعث
-                            </p>
+            <div className="container">
+                <h2 className={styles.title1}>
+                    همپای هم رشد میکنیم
+                </h2>
+                <h3 className={styles.title2}>
+                    تیم همپای شما در الگوریتم
+                </h3>
+                <div >
+                    <Slider {...settings}>
+                        <div className={styles.carouselWrapper}>
+                            <div className={styles.carousel}>
+                                <img className={styles.advisorImage} src="/images/section8/ArashGholizade.svg" alt=""/>
+                                <h2 className={styles.name}>
+                                    آرش قلی زاده
+                                </h2>
+                                <h3 className={styles.title}>
+                                    عضو هیئت مدیره و مدیرعامل
+                                </h3>
+                                <div className={styles.border}></div>
+                                <p className={styles.description}>
+                                    آرش آقاقلیزاده دانش آموخته MBA است و سطح
+                                    دو CFA را گذرانده است. وی در سمت مدیرعامل، هدایت شرکت را
+                                    عهده دار است. تجارب حرفه‌ای و فعالیتهای علمی آرش آقاقلیزاده
+                                    در حوزه سرمایه‌گذاری، در کنار ذهن فعال و پر انرژی وی، باعث
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={styles.carouselWrapper}>
-                        <div className={styles.carousel}>
-                            <img className={styles.advisorImage} src="/images/section8/AmirVafaee.svg" alt=""/>
-                            <h2 className={styles.name}>
-                                امیر وفائی
-                            </h2>
-                            <h3 className={styles.title}>
-                                نائب رئیس هیئت مدیره
-                            </h3>
-                            <div className={styles.border}></div>
-                            <p className={styles.description}>
-                                 آرش آقاقلیزاده دانش آموخته MBA
-                                است و سطح دو CFA را گذرانده است. وی در
-                                سمت مدیرعامل، هدایت شرکت را عهده دار
-                                است. تجارب حرفه‌ای و فعالیتهای علمی
-                                آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
-                                در کنار ذهن فعال و پر انرژی وی، باعث
-                            </p>
+                        <div className={styles.carouselWrapper}>
+                            <div className={styles.carousel}>
+                                <img className={styles.advisorImage} src="/images/section8/AmirVafaee.svg" alt=""/>
+                                <h2 className={styles.name}>
+                                    امیر وفائی
+                                </h2>
+                                <h3 className={styles.title}>
+                                    نائب رئیس هیئت مدیره
+                                </h3>
+                                <div className={styles.border}></div>
+                                <p className={styles.description}>
+                                    آرش آقاقلیزاده دانش آموخته MBA
+                                    است و سطح دو CFA را گذرانده است. وی در
+                                    سمت مدیرعامل، هدایت شرکت را عهده دار
+                                    است. تجارب حرفه‌ای و فعالیتهای علمی
+                                    آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
+                                    در کنار ذهن فعال و پر انرژی وی، باعث
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={styles.carouselWrapper}>
-                        <div className={styles.carousel}>
-                            <img className={styles.advisorImage} src="/images/section8/NajibeKhoshroo.svg" alt=""/>
-                            <h2 className={styles.name}>
-                                نجیبه خوشرو
-                            </h2>
-                            <h3 className={styles.title}>
-                                مدیرگروه مشاور سرمایه‌گذاری
-                            </h3>
-                            <div className={styles.border}></div>
-                            <p className={styles.description}>
-                                آرش آقاقلیزاده دانش آموخته MBA
-                                است و سطح دو CFA را گذرانده است. وی در
-                                سمت مدیرعامل، هدایت شرکت را عهده دار
-                                است. تجارب حرفه‌ای و فعالیتهای علمی
-                                آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
-                                در کنار ذهن فعال و پر انرژی وی، باعث
-                            </p>
+                        <div className={styles.carouselWrapper}>
+                            <div className={styles.carousel}>
+                                <img className={styles.advisorImage} src="/images/section8/NajibeKhoshroo.svg" alt=""/>
+                                <h2 className={styles.name}>
+                                    نجیبه خوشرو
+                                </h2>
+                                <h3 className={styles.title}>
+                                    مدیرگروه مشاور سرمایه‌گذاری
+                                </h3>
+                                <div className={styles.border}></div>
+                                <p className={styles.description}>
+                                    آرش آقاقلیزاده دانش آموخته MBA
+                                    است و سطح دو CFA را گذرانده است. وی در
+                                    سمت مدیرعامل، هدایت شرکت را عهده دار
+                                    است. تجارب حرفه‌ای و فعالیتهای علمی
+                                    آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
+                                    در کنار ذهن فعال و پر انرژی وی، باعث
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={styles.carouselWrapper}>
-                        <div className={styles.carousel}>
-                            <img className={styles.advisorImage} src="/images/section8/BahmanEsmaeeli.svg" alt=""/>
-                            <h2 className={styles.name}>
-                                بهمن اسماعیلی
-                            </h2>
-                            <h3 className={styles.title}>
-                                مدیر سرمایه‌گذاری
-                            </h3>
-                            <div className={styles.border}></div>
-                            <p className={styles.description}>
-                                آرش آقاقلیزاده دانش آموخته MBA
-                                است و سطح دو CFA را گذرانده است. وی در
-                                سمت مدیرعامل، هدایت شرکت را عهده دار
-                                است. تجارب حرفه‌ای و فعالیتهای علمی
-                                آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
-                                در کنار ذهن فعال و پر انرژی وی، باعث
-                            </p>
+                        <div className={styles.carouselWrapper}>
+                            <div className={styles.carousel}>
+                                <img className={styles.advisorImage} src="/images/section8/BahmanEsmaeeli.svg" alt=""/>
+                                <h2 className={styles.name}>
+                                    بهمن اسماعیلی
+                                </h2>
+                                <h3 className={styles.title}>
+                                    مدیر سرمایه‌گذاری
+                                </h3>
+                                <div className={styles.border}></div>
+                                <p className={styles.description}>
+                                    آرش آقاقلیزاده دانش آموخته MBA
+                                    است و سطح دو CFA را گذرانده است. وی در
+                                    سمت مدیرعامل، هدایت شرکت را عهده دار
+                                    است. تجارب حرفه‌ای و فعالیتهای علمی
+                                    آرش آقاقلیزاده در حوزه سرمایه‌گذاری،
+                                    در کنار ذهن فعال و پر انرژی وی، باعث
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                </Slider>
+                    </Slider>
 
+                </div>
             </div>
         </div>
     );

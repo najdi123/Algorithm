@@ -1,8 +1,6 @@
 .wrapper{
     margin-top: 90px;
     margin-bottom: 50px;
-    padding: 0 16px;
-    padding: 0 3vw;
     text-align: center;
     .title{
         font-family: Dana;
@@ -89,8 +87,6 @@
 
         margin-top: 0;
         margin-bottom: 0;
-        padding: 112px 163px;
-        padding: 112px 8vw;
         .title{
             font-size: 25px;
             line-height: 39px;
@@ -173,11 +169,7 @@
 @media (min-width: 1900px) {
     .wrapper{
         background: #F8F8F8;
-
-        margin-top: 0;
-        margin-bottom: 0;
-        padding: 112px 163px;
-        padding: 112px 8vw;
+        padding: 112px 0 111px;
         .title{
             font-size: 40px;
             line-height: 63px;

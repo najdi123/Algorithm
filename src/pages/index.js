@@ -21,7 +21,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.container}>
+      {/*<main className={styles.container}>*/}
+      <main className="">
         <TopHeader />
           <img className={styles.conatctPhone} src="/images/contact-phone.svg" alt=""/>
         <Statistics />

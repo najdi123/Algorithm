@@ -5,7 +5,7 @@
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  margin: 27px;
+  //margin: 27px;
 
   .title{
     font-family: Dana;
@@ -66,7 +66,7 @@
     background: #F8F8F8;
     text-align: center;
     margin: 0;
-    padding: 0 20px;
+    //padding: 0 20px;
 
 
 
@@ -115,14 +115,14 @@
 @media (min-width: 992px) {
   .wrapper {
     margin: 0;
-    padding: 0 60px;
+    //padding: 0 60px;
   }
 }
 @media (min-width: 1200px) {
   .wrapper {
     height: 773px;
     margin: 0;
-    padding: 0 80px;
+    //padding: 0 80px;
     .title{
       padding: 68px 0 50px;
     }
@@ -148,38 +148,41 @@
     background: #F8F8F8;
     text-align: center;
     margin: 0;
-    padding: 0 140px;
-    height: 873px;
+    padding: 41px 0 170px;
+    height: fit-content;
     .title {
       font-size: 50px;
       line-height: 78px;
       /* identical to box height */
       margin: 0;
-      padding: 41px 0 20px;
+      padding: 0 0 0;
     }
 
     .itemsWrapper {
       display: flex;
+      margin: 91px 0 0;
+      padding: 0;
       .item{
         width: 462px;
         .icon {
           width: 152px;
           height: 152px;
-          margin: 71px 0 50px;
+          margin: 0;
         }
 
         .itemTitle {
           font-size: 24px;
           line-height: 38px;
+          margin: 50px 0 0;
         }
 
         .description {
           width: 396px;
           font-size: 24px;
-          line-height: 195.5%;
+          line-height: 50px;
 
-          margin: 0 auto;
-          padding-bottom: 170px;
+          margin: 17px auto 0;
+          padding:0;
         }
       }
 

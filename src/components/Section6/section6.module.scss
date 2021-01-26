@@ -3,6 +3,7 @@
   //height: 300px;
   text-align: center;
 
+
   .title {
     font-family: Dana;
     font-style: normal;
@@ -132,6 +133,25 @@
     }
 
   }
+  .item:hover{
+    background: #1A1061;
+    .cardTitle1,.type{
+      color: white;
+    }
+    .cardTitle2{
+      .percentage{
+        color: white;
+      }
+    }
+    .description{
+      p{
+        color: white;
+      }
+    }
+    .title2description{
+      color: white;
+    }
+  }
   .showOnLargeScreen{
     display: none
   }
@@ -184,7 +204,7 @@
 
   .wrapper {
     //text-align: center;
-    padding: 0 30px 60px;
+    //padding: 0 30px 60px;
 
 
     .title {
@@ -210,16 +230,19 @@
 @media (min-width: 1900px) {
   .wrapper {
     text-align: center;
+    margin: 99px 0 165px;
+    padding: 0;
 
     .title {
       font-size: 50px;
       line-height: 78px;
-      margin: 99px 0 0;
+      margin: 0;
     }
     .showOnLargeScreen{
+      margin: 186px 0 0;
     .item {
       //border-radius: 10px;
-      margin: 186px 20px 25px;
+      margin: 0 20px 0;
       position: relative;
       min-width: 465px;
       width: 465px;

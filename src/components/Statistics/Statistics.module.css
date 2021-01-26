@@ -105,6 +105,7 @@
     .statItems {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .item {
         display: flex;
@@ -181,15 +182,18 @@
 @media (min-width: 1900px) {
     .statsWrapper{
         padding-top: 0;
+        margin: 0 0 117px;
     }
     .title {
         font-size: 50px;
         line-height: 77px;
+        margin: 0;
     }
     .statItems {
+        margin: 106px 0 0;
     }
     .item {
-        margin: 50px 0 0;
+        margin: 0;
     }
     .icon {
         width: 124px;
