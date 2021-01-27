@@ -63,6 +63,15 @@
 
 
 @font-face {
+  font-family: IRANYekanWeb;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/iranYekan/eot/iranyekanwebregularfanum.eot?") format("eot"),
+  url("../fonts/iranYekan/woff/iranyekanwebregularfanum.woff") format("woff"),
+  url("../fonts/iranYekan/ttf/iranyekanwebregularfanum.ttf") format("truetype");
+}
+
+@font-face {
   font-family: Dana;
   font-style: normal;
   font-weight: normal;
