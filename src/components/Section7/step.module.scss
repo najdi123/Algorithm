@@ -1,5 +1,5 @@
-.step{
-  .question{
+.step {
+  .question {
     font-family: Dana;
     font-style: normal;
     font-weight: bold;
@@ -10,10 +10,12 @@
     margin: 51px 0 4px;
     padding: 0;
   }
-  .options{
-    .optionWrapper{
+
+  .options {
+    .optionWrapper {
       height: 90px;
-      .option{
+
+      .option {
         width: 326px;
         height: 80px;
         background: #FEFEFE;
@@ -26,13 +28,14 @@
         position: relative;
         z-index: 1;
 
-        .logo{
+        .logo {
           width: 57px;
           height: 47px;
 
           margin: 16px 20px 17px 17px;
         }
-        .logo2{
+
+        .logo2 {
           width: 50px;
           height: 50px;
           background: #FFFFFF;
@@ -44,8 +47,9 @@
           padding: 11px 0;
           margin: 15px 22px 15px 21px;
         }
-        .flexOnLarge{
-          .mutualFund{
+
+        .flexOnLarge {
+          .mutualFund {
             font-family: Dana;
             font-style: normal;
             font-weight: bold;
@@ -54,7 +58,8 @@
             color: #005152;
 
           }
-          .detail{
+
+          .detail {
             font-family: Dana;
             font-style: normal;
             font-weight: normal;
@@ -69,10 +74,12 @@
 
 
       }
-      .option:hover{
+
+      .option:hover {
         cursor: pointer;
       }
-      .bottomStyle{
+
+      .bottomStyle {
         //position: absolute;
         //bottom: -110px;
         //left: 7%;
@@ -90,7 +97,7 @@
     }
   }
 
-  .text{
+  .text {
     font-family: Dana;
     font-style: normal;
     font-weight: 300;
@@ -100,7 +107,8 @@
 
     margin: 34px 0 0;
   }
-  .askButton{
+
+  .askButton {
     width: 150px;
     height: 38px;
     background: #27BCC0;
@@ -119,7 +127,8 @@
     border: none;
     outline: none;
   }
-  .askButton::selection{
+
+  .askButton::selection {
     border: none;
     outline: none;
   }
@@ -137,7 +146,8 @@
     margin: 51px 0 4px;
     padding: 0;
   }
-  .text2{
+
+  .text2 {
     font-family: Dana;
     font-style: normal;
     font-weight: 300;
@@ -149,12 +159,14 @@
     //width: 295px;
     height: 60px;
   }
-  .form{
+
+  .form {
     margin-top: 23px;
     display: flex;
     flex-direction: column;
   }
-  .input{
+
+  .input {
     width: 308.25px;
     height: 48.74px;
 
@@ -180,22 +192,26 @@
     /* identical to box height */
     color: #252934;
   }
-  .input::selection,askButton2::selection{
+
+  .input::selection, askButton2::selection {
     outline: none;
   }
-  .input::placeholder{
+
+  .input::placeholder {
 
 
     font-size: 16px;
     line-height: 24px;
     color: #545D75;
   }
-  .input:focus{
+
+  .input:focus {
     border: 3px solid #25BDBE;
     box-sizing: border-box;
     //border-radius: 20px;
   }
-  .askButton2{
+
+  .askButton2 {
     width: 141.33px;
     height: 48.74px;
     background: #25BDBE;
@@ -219,26 +235,33 @@
 
 @media (min-width: 576px) {
 }
-@media (min-width: 768px) {  }
+
+@media (min-width: 768px) {
+}
+
 @media (min-width: 992px) {
 
 }
+
 @media (min-width: 1200px) {
-  .step{
-    .question{
+  .step {
+    .question {
       font-size: 25px;
       line-height: 39px;
       margin: 51px 0 4px;
       padding: 0;
     }
-    .options{
+
+    .options {
       display: flex;
       justify-content: center;
       flex-direction: row;
-      .optionWrapper{
+
+      .optionWrapper {
         height: fit-content;
         padding: 0 18.5px;
-        .option{
+
+        .option {
           width: 326px;
           height: 280px;
           background: #FEFEFE;
@@ -250,13 +273,14 @@
           position: relative;
           z-index: 1;
 
-          .logo{
+          .logo {
             width: 127px;
             height: 110px;
 
             margin: 37px 0 0 0;
           }
-          .logo2{
+
+          .logo2 {
             //width: 50px;
             //height: 50px;
             background: #FFFFFF;
@@ -273,16 +297,18 @@
 
             margin: 37px 0 0 0;
           }
-          .flexOnLarge{
+
+          .flexOnLarge {
             display: flex;
             justify-content: center;
             align-items: center;
 
-            .mutualFund{
+            .mutualFund {
               font-size: 24px;
               line-height: 38px;
             }
-            .detail{
+
+            .detail {
               font-weight: 600;
               font-size: 19px;
               opacity: 0.8;
@@ -292,6 +318,7 @@
           }
 
         }
+
         //.option:hover{
         //  width: 496.42px;
         //  height: 298.92px;
@@ -302,7 +329,7 @@
         //
         //  transition: all 200ms;
         //}
-        .bottomStyle{
+        .bottomStyle {
           //position: absolute;
           //bottom: -110px;
           //left: 7%;
@@ -320,13 +347,14 @@
       }
     }
 
-    .text{
+    .text {
       font-size: 30px;
       line-height: 45px;
 
       margin: 50px 0 0;
     }
-    .askButton{
+
+    .askButton {
       width: 354px;
       height: 88px;
       background: #27BCC0;
@@ -341,7 +369,8 @@
       border: none;
       outline: none;
     }
-    .askButton::selection{
+
+    .askButton::selection {
       border: none;
       outline: none;
     }
@@ -356,18 +385,21 @@
       margin: 46px 0 4px;
       padding: 0;
     }
-    .text2{
+
+    .text2 {
       font-size: 20px;
       line-height: 30px;
       margin: 15px 33px 4px;
       //width: 295px;
       height: 30px;
     }
-    .form{
+
+    .form {
       margin-top: 23px;
 
     }
-    .input{
+
+    .input {
       width: 505px;
       height: 80px;
 
@@ -378,20 +410,24 @@
       font-size: 22px;
       line-height: 35px;
     }
-    .input::placeholder{
+
+    .input::placeholder {
       font-size: 20px;
       line-height: 30px;
       color: #545D75;
     }
-    .input:focus{
+
+    .input:focus {
       border: 4px solid #25BDBE;
       box-sizing: border-box;
       border-radius: 20px;
     }
-    .input::selection,askButton2::selection{
+
+    .input::selection, askButton2::selection {
       outline: none;
     }
-    .askButton2{
+
+    .askButton2 {
       width: 211px;
       height: 73px;
       border-radius: 15px;
@@ -408,25 +444,32 @@
     }
   }
 }
+
 @media (min-width: 1900px) {
-  .step{
-    .question{
+  .step {
+    position: relative;
+
+    .question {
       font-size: 50px;
       line-height: 78px;
       margin: 51px 0 4px;
       padding: 0;
     }
-    .options{
+
+    .options {
       display: flex;
       justify-content: center;
-      flex-direction: row;
-      .optionWrapper{
+      flex-direction: row-reverse;
+      margin-top: 40px;
+
+      .optionWrapper {
         height: fit-content;
         padding: 0 18.5px;
-        margin-top: 40px;
+
 
         //border: 20px solid white;
-        .option{
+
+        .option {
           width: 496.42px;
           height: 298.92px;
           width: 465px;
@@ -436,19 +479,20 @@
           border-radius: 10px;
 
 
-
-          margin: 19px auto 0;
+          //margin: 21px auto 0;
+          margin: 10px auto 0;
           display: block;
           position: relative;
           z-index: 1;
 
-          .logo{
+          .logo {
             width: 141px;
             height: 122px;
 
             margin: 37px 0 0 0;
           }
-          .logo2{
+
+          .logo2 {
             //width: 50px;
             //height: 50px;
             background: #FFFFFF;
@@ -465,28 +509,34 @@
 
             margin: 37px 0 0 0;
           }
-          .flexOnLarge{
+
+          .flexOnLarge {
             display: flex;
             justify-content: center;
             align-items: center;
 
             margin: 30px 0 45px;
-            .mutualFund{
+
+            .mutualFund {
               font-size: 24px;
               line-height: 38px;
+              color: #1A1061;
             }
-            .detail{
+
+            .detail {
               font-weight: 600;
               font-size: 19px;
+              color: #1B1464;
               opacity: 0.8;
 
               margin-right: 15px;
+              margin-bottom: 0;
             }
           }
 
         }
 
-        .bottomStyle{
+        .bottomStyle {
           //position: absolute;
           //bottom: -110px;
           //left: 7%;
@@ -502,12 +552,13 @@
 
         }
       }
-      .optionWrapper:hover{
-        //margin: 0;
-        padding: 0;
+
+      .optionWrapper:hover {
+        //margin: 10px 0 0;
+        padding: 0 3px;
         transition: all 300ms;
         //border: 1px solid white;
-        .option{
+        .option {
           width: 496.42px;
           height: 298.92px;
           //padding: 0;
@@ -515,39 +566,84 @@
           box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.25);
           border-radius: 18px;
 
-
           transition: all 300ms;
 
           //border: 20px solid white;
+          .logo {
+            width: 183px;
+            height: 158px;
+            transition: all 300ms;
+            margin: 22px 0 0 0;
+          }
+          .logo2 {
+            width: 120px;
+            height: 120px;
+
+            padding: 22px 0;
+            margin: 37px 0 16px 0;
+            transition: all 300ms;
+          }
+          .flexOnLarge {
+            transition: all 300ms;
+            //margin: 20px 0 45px;
+            .mutualFund {
+              transition: all 300ms;
+              font-size: 30px;
+              line-height: 47px;
+            }
+
+            .detail {
+              font-size: 25px;
+              line-height: 39px;
+
+              transition: all 300ms;
+            }
+          }
+        }
+
+        .bottomStyle {
+          width: 421.69px;
+          height: 48.04px;
+          transition: all 300ms;
         }
       }
     }
 
-    .text{
-      font-size: 30px;
-      line-height: 45px;
+    .bottom {
+      position: absolute;
+      top: 520px;
+      transform: translateX(-50%);
 
-      margin: 50px 0 0;
-    }
-    .askButton{
-      width: 354px;
-      height: 88px;
-      background: #27BCC0;
-      box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.25);
-      border-radius: 8px;
+      .text {
+        font-size: 30px;
+        line-height: 45px;
 
-      font-size: 30px;
-      line-height: 46px;
+        margin: 50px 0 0;
+      }
 
-      margin: 26px 0 0;
-      padding: 23px 28px 19px;
-      border: none;
-      outline: none;
+      .askButton {
+        width: 354px;
+        height: 88px;
+        background: #27BCC0;
+        box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+
+        font-size: 30px;
+        line-height: 46px;
+
+        margin: 26px 0 0;
+        padding: 23px 28px 19px;
+        border: none;
+        outline: none;
+      }
+
+      .askButton::selection {
+        border: none;
+        outline: none;
+      }
     }
-    .askButton::selection{
-      border: none;
-      outline: none;
-    }
+
+
   }
 
   .step3 {
@@ -559,18 +655,21 @@
       margin: 46px 0 4px;
       padding: 0;
     }
-    .text2{
+
+    .text2 {
       font-size: 30px;
       line-height: 45px;
       margin: 15px 33px 4px;
       //width: 295px;
       height: 45px;
     }
-    .form{
+
+    .form {
       margin-top: 23px;
 
     }
-    .input{
+
+    .input {
       width: 632.81px;
       height: 100.05px;
 
@@ -581,20 +680,24 @@
       font-size: 30px;
       line-height: 50px;
     }
-    .input::placeholder{
+
+    .input::placeholder {
       font-size: 20px;
       line-height: 30px;
       color: #545D75;
     }
-    .input:focus{
+
+    .input:focus {
       border: 4px solid #25BDBE;
       box-sizing: border-box;
       border-radius: 20px;
     }
-    .input::selection,askButton2::selection{
+
+    .input::selection, askButton2::selection {
       outline: none;
     }
-    .askButton2{
+
+    .askButton2 {
       width: 264px;
       height: 91px;
       border-radius: 20px;

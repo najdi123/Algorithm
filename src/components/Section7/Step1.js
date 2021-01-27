@@ -59,12 +59,14 @@ const Step1 = ({selectStep}) => {
                     <div className={styles.bottomStyle}></div>
                 </div>
             </div>
-            <p className={styles.text}>
-                اگر نمیدانید کدام نوع سرمایه‌گذاری مناسب شماست، از ما کمک بگیرید.
-            </p>
-            <button className={styles.askButton}>
-                درخواست مشاوره رایگان
-            </button>
+            <div className={styles.bottom}>
+                <p className={styles.text}>
+                    اگر نمیدانید کدام نوع سرمایه‌گذاری مناسب شماست، از ما کمک بگیرید.
+                </p>
+                <button className={styles.askButton}>
+                    درخواست مشاوره رایگان
+                </button>
+            </div>
         </div>
     );
 };
