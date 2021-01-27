@@ -133,7 +133,7 @@
 
         min-width: 395px;
         .description {
-          width: 356px;
+          //width: 356px;
           margin: 0 auto;
           padding-bottom: 140px;
         }
@@ -160,14 +160,16 @@
 
     .itemsWrapper {
       display: flex;
+      justify-content: space-between;
       margin: 91px 0 0;
       padding: 0;
       .item{
         width: 462px;
+        padding: 49px 31px 27px 35px;
         .icon {
           width: 152px;
           height: 152px;
-          margin: 49px 0 0;
+          margin: 0;
         }
 
         .itemTitle {
@@ -177,11 +179,11 @@
         }
 
         .description {
-          width: 396px;
+          //width: 396px;
           font-size: 24px;
           line-height: 50px;
 
-          margin: 17px auto 27px;
+          margin: 17px 0 0;
           padding:0;
         }
       }

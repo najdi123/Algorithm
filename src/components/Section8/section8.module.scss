@@ -91,9 +91,11 @@
     }
     .carousel:hover{
       background: #1A1061;
+      transition: all 300ms;
 
       .name,.title,.description{
         color: white;
+        transition: all 300ms;
       }
     }
   }

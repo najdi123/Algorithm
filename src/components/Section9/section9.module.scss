@@ -49,6 +49,9 @@
                 outline: none;
             }
         }
+        .question:hover{
+            cursor: pointer;
+        }
         .answer{
             font-family: IRANSans(FaNum);
             font-style: normal;

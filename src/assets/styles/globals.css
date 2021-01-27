@@ -1,17 +1,19 @@
+@charset "UTF-8";
+
 @font-face {
-  font-family: "untitled-font-1";
-  src:url("/public/fontIcons/untitled-font-1.eot");
-  src:url("/public/fontIcons/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-  url("/public/fontIcons/untitled-font-1.woff") format("woff"),
-  url("/public/fontIcons/untitled-font-1.ttf") format("truetype"),
-  url("/public/fontIcons/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-family: "algorithm-icons";
+  src:url("../fonts/fontastic-icons/algorithm-icons.eot");
+  src:url("../fonts/fontastic-icons/algorithm-icons.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/fontastic-icons/algorithm-icons.woff") format("woff"),
+  url("../fonts/fontastic-icons/algorithm-icons.ttf") format("truetype"),
+  url("../fonts/fontastic-icons/algorithm-icons.svg#algorithm-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "untitled-font-1" !important;
+  font-family: "algorithm-icons" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -23,9 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "untitled-font-1" !important;
+[class^="a-"]:before,
+[class*=" a-"]:before {
+  font-family: "algorithm-icons" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -36,21 +38,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-advisors-icon:before {
-  content: "\61";
+.a-blue-phone:before {
+  content: "\e000";
 }
-.icon-investors-icon:before {
-  content: "\62";
+.a-advisors-icon:before {
+  content: "\e001";
 }
-.icon-investment-icon:before {
-  content: "\63";
+.a-blue-phone-1:before {
+  content: "\e002";
 }
-.icon-contact-phone:before {
-  content: "\64";
+.a-contact-phone:before {
+  content: "\e003";
 }
-.icon-blue-phone:before {
-  content: "\65";
+.a-investment-icon:before {
+  content: "\e004";
 }
+.a-investors-icon:before {
+  content: "\e005";
+}
+.a-nav-logo:before {
+  content: "\e006";
+}
+
 
 
 @font-face {
@@ -222,7 +231,7 @@ input#email-icon{
 @media (min-width: 1900px) {
   input#email-icon,input#phone-icon,input#user-icon{
     background-size: 40px 40px;
-    background-position: 570px 30px;
+    background-position: 570px 25px;
     text-indent: 80px;
     padding: 14px;
   }

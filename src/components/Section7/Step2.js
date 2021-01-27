@@ -11,12 +11,12 @@ const Step2 = ({selectStep}) => {
                 <div className={styles.optionWrapper}>
                     <div
                         className={styles.option}
-                        onClick={() => selectStep("زیر 200 میلیون تومان")}
+                        onClick={() => selectStep("بالای 1 میلیارد تومان")}
                     >
-                        <img className={styles.logo2} src="/images/section7/low.svg" alt=""/>
+                        <img className={styles.logo2} src="/images/section7/high.svg" alt=""/>
                         <div className={styles.flexOnLarge}>
                             <h4 className={styles.mutualFund}>
-                                زیر 200 میلیون تومان
+                                بالای 1 میلیارد تومان
                             </h4>
                         </div>
                     </div>
@@ -37,12 +37,12 @@ const Step2 = ({selectStep}) => {
                 <div className={styles.optionWrapper}>
                     <div
                         className={styles.option}
-                        onClick={() => selectStep("بالای 1 میلیارد تومان")}
+                        onClick={() => selectStep("زیر 200 میلیون تومان")}
                     >
-                        <img className={styles.logo2} src="/images/section7/high.svg" alt=""/>
+                        <img className={styles.logo2} src="/images/section7/low.svg" alt=""/>
                         <div className={styles.flexOnLarge}>
                             <h4 className={styles.mutualFund}>
-                                بالای 1 میلیارد تومان
+                                زیر 200 میلیون تومان
                             </h4>
                         </div>
                     </div>

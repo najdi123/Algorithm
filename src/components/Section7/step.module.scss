@@ -173,7 +173,7 @@
     margin: 11px auto 0;
 
     background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #7A8094;
+    border: 3px solid #7A8094;
     box-sizing: border-box;
     border-radius: 10px;
 
@@ -207,7 +207,7 @@
 
   .input:focus {
     border: 3px solid #25BDBE;
-    box-sizing: border-box;
+    //box-sizing: border-box;
     //border-radius: 20px;
   }
 
@@ -459,7 +459,7 @@
     .options {
       display: flex;
       justify-content: center;
-      flex-direction: row-reverse;
+      flex-direction: row;
       margin-top: 40px;
 
       .optionWrapper {
@@ -521,6 +521,7 @@
               font-size: 24px;
               line-height: 38px;
               color: #1A1061;
+              margin-bottom: 0;
             }
 
             .detail {

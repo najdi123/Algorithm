@@ -145,25 +145,30 @@
 
   .item:hover {
     background: #1A1061;
+    transition: all 300ms;
 
     .cardTitle1, .type {
       color: white;
+      transition: all 300ms;
     }
 
     .cardTitle2 {
       .percentage {
         color: white;
+        transition: all 300ms;
       }
     }
 
     .description {
       p {
         color: white;
+        transition: all 300ms;
       }
     }
 
     .title2description {
       color: white;
+      transition: all 300ms;
     }
   }
 
