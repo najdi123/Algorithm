@@ -23,6 +23,16 @@ const Index = () => {
         centerPadding: "22%",
         responsive: [
             {
+                breakpoint: 6500,
+                settings: {
+                    // centerPadding: "22%",
+
+                    slidesToShow: 4,
+                    centerPadding: "0%",
+                    centerMode: true,
+                },
+            },
+            {
                 breakpoint: 2500,
                 settings: {
                     // centerPadding: "22%",
