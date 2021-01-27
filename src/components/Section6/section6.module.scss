@@ -31,7 +31,8 @@
       transform: translateX(-50%);
       //transform: translateY(-50%);
     }
-    .cardTitle1{
+
+    .cardTitle1 {
       font-family: Dana;
       font-style: normal;
       font-weight: bold;
@@ -45,8 +46,9 @@
       border-bottom: 4px solid #27BCC0;
       //display: inline-block;
     }
-    .cardTitle2{
-      .percentage{
+
+    .cardTitle2 {
+      .percentage {
         font-family: Dana;
         font-style: normal;
         font-weight: bold;
@@ -55,7 +57,8 @@
         color: #1A1061;
         padding: 0 3px;
       }
-      .title2description{
+
+      .title2description {
         font-family: Dana;
         font-style: normal;
         font-weight: 600;
@@ -65,13 +68,14 @@
         color: #1A1061;
         padding: 0 3px;
       }
+
       margin: 8px 0;
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
-    .type{
+    .type {
       font-family: Dana;
       font-style: normal;
       font-weight: 600;
@@ -88,15 +92,18 @@
       padding: 6px 16px 7px 17px;
       margin: 16px 0 15px;
     }
-    .description{
+
+    .description {
       text-align: right;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      .checkMark{
+
+      .checkMark {
         padding-left: 11px;
       }
-      p{
+
+      p {
         font-family: Dana;
         font-style: normal;
         font-weight: normal;
@@ -109,7 +116,8 @@
         margin: 3px auto;
       }
     }
-    .moreInfo{
+
+    .moreInfo {
       font-family: Dana;
       font-style: normal;
       font-weight: 500;
@@ -127,32 +135,39 @@
 
       margin: 26px 0 20px;
     }
-    .moreInfo::selection{
+
+    .moreInfo::selection {
       border: none;
       outline: none;
     }
 
   }
-  .item:hover{
+
+  .item:hover {
     background: #1A1061;
-    .cardTitle1,.type{
+
+    .cardTitle1, .type {
       color: white;
     }
-    .cardTitle2{
-      .percentage{
+
+    .cardTitle2 {
+      .percentage {
         color: white;
       }
     }
-    .description{
-      p{
+
+    .description {
+      p {
         color: white;
       }
     }
-    .title2description{
+
+    .title2description {
       color: white;
     }
   }
-  .showOnLargeScreen{
+
+  .showOnLargeScreen {
     display: none
   }
 }
@@ -181,16 +196,19 @@
 }
 
 @media (min-width: 992px) {
-  .wrapper{
+  .wrapper {
     padding: 0 0 60px;
-    .showOnSmallScreen{
+
+    .showOnSmallScreen {
       display: none;
     }
-    .showOnLargeScreen{
+
+    .showOnLargeScreen {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      .item{
+
+      .item {
         min-width: 30vw;
         max-width: 465px;
         margin: 63px 10px 25px;
@@ -238,97 +256,124 @@
       line-height: 78px;
       margin: 0;
     }
-    .showOnLargeScreen{
+
+    .showOnLargeScreen {
       margin: 186px 0 0;
-    .item {
-      //border-radius: 10px;
-      margin: 0 20px 0;
-      position: relative;
-      min-width: 465px;
-      width: 465px;
 
-      .cardIcon {
-        top: -130px;
-        width: 242px;
-        height: 242px;
+      .item {
+        //border-radius: 10px;
+        margin: 0 20px 0;
+        position: relative;
+        min-width: 465px;
+        width: 465px;
+
+        .cardIcon {
+          top: -130px;
+          width: 242px;
+          height: 242px;
+        }
+
+        .cardTitle1 {
+          font-size: 25px;
+          line-height: 39px;
+          /* identical to box height */
+
+          margin: 51px 30px;
+          padding: 64px 0 14.5px;
+          border-bottom: 4px solid #27BCC0;
+          //display: inline-block;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            font-size: 33px;
+            line-height: 52px;
+            padding-left: 21px;
+          }
+
+          .title2description {
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height */
+            padding: 0 3px;
+          }
+
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .type {
+          font-size: 19px;
+          line-height: 29px;
+
+          border-radius: 9px;
+
+          display: inline-block;
+          padding: 8px 24px 9px;
+          margin: 15px 0 30px;
+        }
+
+        .description {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .checkMark {
+            padding-left: 11px;
+          }
+
+          p {
+            font-size: 19px;
+            line-height: 246.1%;
+            /* or 47px */
+            /* or 30px */
+            color: #1A1061;
+            width: 100%;
+            max-width: 90%;
+            margin: 3px 49px;
+          }
+        }
+
+        .moreInfo {
+          font-size: 24px;
+          line-height: 38px;
+
+          padding: 11px 42px;
+          //padding: 0;
+          border-radius: 90px;
+          margin: 36px 0 46px;
+          //margin: 0;
+        }
+
       }
 
-      .cardTitle1 {
-        font-size: 25px;
-        line-height: 39px;
-        /* identical to box height */
+      .item:hover {
+        background: #1A1061;
+        //cursor: pointer;
 
-        margin: 51px 30px;
-        padding: 64px 0 14.5px;
-        border-bottom: 4px solid #27BCC0;
-        //display: inline-block;
-      }
+        .cardTitle1, .type {
+          color: white;
+        }
 
-      .cardTitle2 {
-        .percentage {
-          font-size: 33px;
-          line-height: 52px;
-          padding-left: 21px;
+        .cardTitle2 {
+          .percentage {
+            color: white;
+          }
+        }
+
+        .description {
+          p {
+            color: white;
+          }
         }
 
         .title2description {
-          font-size: 18px;
-          line-height: 28px;
-          /* identical to box height */
-          padding: 0 3px;
-        }
-
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .type {
-        font-size: 19px;
-        line-height: 29px;
-
-        border-radius: 9px;
-
-        display: inline-block;
-        padding: 8px 24px 9px;
-        margin: 15px 0 30px;
-      }
-
-      .description {
-        text-align: right;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .checkMark {
-          padding-left: 11px;
-        }
-
-        p {
-          font-size: 19px;
-          line-height: 246.1%;
-          /* or 47px */
-          /* or 30px */
-          color: #1A1061;
-          width: 100%;
-          max-width: 90%;
-          margin: 3px 49px;
+          color: white;
         }
       }
-
-      .moreInfo {
-        font-size: 24px;
-        line-height: 38px;
-
-        padding: 11px 42px;
-        //padding: 0;
-        border-radius: 90px;
-        margin: 36px 0 46px;
-        //margin: 0;
-      }
-
-    }
     }
   }
 }

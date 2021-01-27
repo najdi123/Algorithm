@@ -91,30 +91,12 @@ const Index = () => {
                     <Slider {...settings}>
                         <div className={styles.carouselWrapper}>
                             <div className={styles.carousel}>
-                                <img className={styles.advisorImage} src="/images/section8/ArashGholizade.svg" alt=""/>
+                                <img className={styles.advisorImage} src="/images/section8/BahmanEsmaeeli.svg" alt=""/>
                                 <h2 className={styles.name}>
-                                    آرش قلی زاده
+                                    بهمن اسماعیلی
                                 </h2>
                                 <h3 className={styles.title}>
-                                    عضو هیئت مدیره و مدیرعامل
-                                </h3>
-                                <div className={styles.border}></div>
-                                <p className={styles.description}>
-                                    آرش آقاقلیزاده دانش آموخته MBA است و سطح
-                                    دو CFA را گذرانده است. وی در سمت مدیرعامل، هدایت شرکت را
-                                    عهده دار است. تجارب حرفه‌ای و فعالیتهای علمی آرش آقاقلیزاده
-                                    در حوزه سرمایه‌گذاری، در کنار ذهن فعال و پر انرژی وی، باعث
-                                </p>
-                            </div>
-                        </div>
-                        <div className={styles.carouselWrapper}>
-                            <div className={styles.carousel}>
-                                <img className={styles.advisorImage} src="/images/section8/AmirVafaee.svg" alt=""/>
-                                <h2 className={styles.name}>
-                                    امیر وفائی
-                                </h2>
-                                <h3 className={styles.title}>
-                                    نائب رئیس هیئت مدیره
+                                    مدیر سرمایه‌گذاری
                                 </h3>
                                 <div className={styles.border}></div>
                                 <p className={styles.description}>
@@ -149,12 +131,12 @@ const Index = () => {
                         </div>
                         <div className={styles.carouselWrapper}>
                             <div className={styles.carousel}>
-                                <img className={styles.advisorImage} src="/images/section8/BahmanEsmaeeli.svg" alt=""/>
+                                <img className={styles.advisorImage} src="/images/section8/AmirVafaee.svg" alt=""/>
                                 <h2 className={styles.name}>
-                                    بهمن اسماعیلی
+                                    امیر وفائی
                                 </h2>
                                 <h3 className={styles.title}>
-                                    مدیر سرمایه‌گذاری
+                                    نائب رئیس هیئت مدیره
                                 </h3>
                                 <div className={styles.border}></div>
                                 <p className={styles.description}>
@@ -167,6 +149,28 @@ const Index = () => {
                                 </p>
                             </div>
                         </div>
+
+                        <div className={styles.carouselWrapper}>
+                            <div className={styles.carousel}>
+                                <img className={styles.advisorImage} src="/images/section8/ArashGholizade.svg" alt=""/>
+                                <h2 className={styles.name}>
+                                    آرش قلی زاده
+                                </h2>
+                                <h3 className={styles.title}>
+                                    عضو هیئت مدیره و مدیرعامل
+                                </h3>
+                                <div className={styles.border}></div>
+                                <p className={styles.description}>
+                                    آرش آقاقلیزاده دانش آموخته MBA است و سطح
+                                    دو CFA را گذرانده است. وی در سمت مدیرعامل، هدایت شرکت را
+                                    عهده دار است. تجارب حرفه‌ای و فعالیتهای علمی آرش آقاقلیزاده
+                                    در حوزه سرمایه‌گذاری، در کنار ذهن فعال و پر انرژی وی، باعث
+                                </p>
+                            </div>
+                        </div>
+
+
+
 
                     </Slider>
 
