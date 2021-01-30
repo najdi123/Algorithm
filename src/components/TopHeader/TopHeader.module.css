@@ -108,7 +108,7 @@
         align-items: end;
         text-align: right;
 
-        /*padding: 0 40px;*/
+        padding: 40vh 0;
     }
 
     .topTitle {
@@ -161,7 +161,53 @@
 
 @media (min-width: 768px) {
     .headerWrapper {
-        /*padding: 0 60px;*/
+        /*padding: 0 99.2px;*/
+
+
+    }
+    .topTitle {
+        font-weight: 600;
+        font-size: 35.4px;
+        line-height: 54.6px;
+
+        height: 54.6px;
+    }
+    .bottomTitle{
+        padding: 0;
+        margin: 0;
+
+        font-weight: 300;
+        font-size: 28.3px;
+        line-height: 42.5px;
+
+        height: 42.5px;
+    }
+    .actionWrapper {
+        display: flex;
+        /*justify-content: flex-end;*/
+        /*right: 0;*/
+        /*top: 323.2px;*/
+        /*position: static;*/
+    }
+    .actionButton {
+        width: 146.7px;
+        height: 46.8px;
+        background: #25BDBE;
+        box-shadow: 0.0px 7.1px 14.2px rgba(0, 0, 0, 0.25);
+        border-radius: 7.1px;
+    }
+    .actionButton div{
+        font-weight: 500;
+        font-size: 21.3px;
+        line-height: 32.6px;
+    }
+    .description {
+        font-weight: 300;
+        font-size: 14.2px;
+        line-height: 21.3px;
+        padding-right: 20.6px;
+    }
+    .headerWrapper {
         background-position-x: -320px;
     }
 
@@ -169,70 +215,114 @@
 
 @media (min-width: 992px) {
     .headerWrapper {
-        /*padding: 0 80px;*/
-        /*background-position-x: -20px;*/
+        padding: 0;
         background-position: center;
     }
 }
 
 @media (min-width: 1200px) {
-
     .headerWrapper {
-        /*padding: 0 120px;*/
-        /*background-position-x: -273px;*/
-        padding: 272px 0 0;
-    }
+        /*padding: 0 113.4px;*/
 
+    }
     .topTitle {
         font-weight: 600;
-        font-size: 42px;
-        line-height: 77px;
+        font-size: 40.5px;
+        line-height: 62.4px;
 
-        height: 77px;
-        margin: 0;
+        height: 62.4px;
     }
     .bottomTitle{
         padding: 0;
         margin: 0;
 
         font-weight: 300;
-        font-size: 36px;
-        line-height: 60px;
+        font-size: 32.4px;
+        line-height: 48.6px;
 
-        height: 60px;
+        height: 48.6px;
     }
     .actionWrapper {
         display: flex;
-        position: inherit;
-        margin: 24px 0;
+        /*justify-content: flex-end;*/
+        /*right: 0;*/
+        /*top: 369.4px;*/
+        /*position: static;*/
     }
     .actionButton {
-        width: 207px;
-        height: 66px;
+        width: 167.7px;
+        height: 53.5px;
         background: #25BDBE;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
+        box-shadow: 0.0px 8.1px 16.2px rgba(0, 0, 0, 0.25);
+        border-radius: 8.1px;
     }
     .actionButton div{
         font-weight: 500;
-        font-size: 26px;
-        line-height: 40px;
+        font-size: 24.3px;
+        line-height: 37.3px;
     }
     .description {
         font-weight: 300;
-        font-size: 20px;
-        line-height: 30px;
-        padding-right: 29px;
+        font-size: 16.2px;
+        line-height: 24.3px;
+        padding-right: 23.5px;
     }
+
 }
-@media (min-width: 1600px) {
+@media (min-width: 1371px) {
+    .headerWrapper {
+        /*padding: 0 113.4px;*/
+
+    }
+    .topTitle {
+        font-weight: 600;
+        font-size: 40.5px;
+        line-height: 62.4px;
+
+        height: 62.4px;
+    }
+    .bottomTitle{
+        padding: 0;
+        margin: 0;
+
+        font-weight: 300;
+        font-size: 32.4px;
+        line-height: 48.6px;
+
+        height: 48.6px;
+    }
+    .actionWrapper {
+        display: flex;
+        /*justify-content: flex-end;*/
+        /*right: 0;*/
+        /*top: 369.4px;*/
+        /*position: static;*/
+    }
+    .actionButton {
+        width: 167.7px;
+        height: 53.5px;
+        background: #25BDBE;
+        box-shadow: 0.0px 8.1px 16.2px rgba(0, 0, 0, 0.25);
+        border-radius: 8.1px;
+    }
+    .actionButton div{
+        font-weight: 500;
+        font-size: 24.3px;
+        line-height: 37.3px;
+    }
+    .description {
+        font-weight: 300;
+        font-size: 16.2px;
+        line-height: 24.3px;
+        padding-right: 23.5px;
+    }
     .headerWrapper {
         /*padding: 0 130px;*/
         background-position: center;
     }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1690px) {
     .headerWrapper {
         /*padding: 0 140px;*/
 

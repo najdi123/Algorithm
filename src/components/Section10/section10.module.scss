@@ -143,7 +143,6 @@
     .actionButton{
       margin: 50px auto 0;
     }
-
     .info{
       display: flex;
       width: fit-content;
@@ -163,7 +162,6 @@
           margin: 0;
           padding: 0 0 0 10px;
         }
-
       }
       .phone{
         display: flex;
@@ -241,7 +239,6 @@
             margin: 0;
             padding: 0 23.5px 0 5.2px;
           }
-
         }
         .phone{
           display: flex;
@@ -259,26 +256,15 @@
             padding: 0 0 0 5.2px;
           }
         }
-
       }
     }
-
-
   }
 }
 @media (min-width: 992px) {
   .wrapper{
-    width: 100%;
     margin: 93.9px 0;
-    padding: 0;
-    text-align: center;
     .box{
-      background: url("/images/section10/bg-box-large-size.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
       padding: 101.4px 0;
-
       .title{
         font-size: 24.6px;
         line-height: 38.7px;
@@ -289,292 +275,158 @@
         width: 185.5px;
         height: 43.6px;
         margin: 21.5px auto 4.3px;
-        font-family: IRANYekanWeb;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14.7px;
         line-height: 25.2px;
-        color: #FFFFFF;
-      }
-      .actionButton::selection{
-        border: none;
-        outline: none;
       }
       .info{
-        display: flex;
-        width: fit-content;
-        justify-content: center;
-        flex-direction: row-reverse;
-        align-items: center;
-        height: fit-content;
         margin: 30.7px auto 0;
         .email{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 22.9px;
             height: 22.9px;
           }
           .emailAddress{
-            font-weight: 500;
             font-size: 11.0px;
             line-height: 23.4px;
-            margin: 0;
             padding: 0 27.7px 0 6.1px;
           }
-
         }
         .phone{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 22.9px;
             height: 22.9px;
           }
           .phoneNumber{
-            font-weight: normal;
             font-size: 11.0px;
             line-height: 23.4px;
-            margin: 0;
             padding: 0 0 0 6.1px;
           }
         }
-
       }
     }
-
-
   }
 }
 @media (min-width: 1200px) {
   .wrapper{
-    width: 100%;
     margin: 110.5px 0;
-    padding: 0;
-    text-align: center;
     .box{
-      background: url("/images/section10/bg-box-large-size.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
       padding: 119.3px 0;
-
       .title{
         font-size: 28.9px;
         line-height: 45.5px;
-        margin: 0;
         padding: 50.6px 0 0;
       }
       .actionButton{
         width: 218.2px;
         height: 51.3px;
         margin: 25.3px auto 5.1px;
-        font-family: IRANYekanWeb;
-        font-style: normal;
-        font-weight: normal;
         font-size: 17.3px;
         line-height: 29.7px;
-        color: #FFFFFF;
-      }
-      .actionButton::selection{
-        border: none;
-        outline: none;
       }
       .info{
-        display: flex;
-        width: fit-content;
-        justify-content: center;
-        flex-direction: row-reverse;
-        align-items: center;
-        height: fit-content;
         margin: 36.1px auto 0;
         .email{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 26.9px;
             height: 26.9px;
           }
           .emailAddress{
-            font-weight: 500;
             font-size: 13.0px;
             line-height: 27.5px;
-            margin: 0;
             padding: 0 32.6px 0 7.2px;
           }
-
         }
         .phone{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 26.9px;
             height: 26.9px;
           }
           .phoneNumber{
-            font-weight: normal;
             font-size: 13.0px;
             line-height: 27.5px;
-            margin: 0;
             padding: 0 0 0 7.2px;
           }
         }
-
       }
     }
-
-
   }
 }
 @media (min-width: 1371px) {
   .wrapper{
-    width: 100%;
     margin: 130.0px 0;
-    padding: 0;
-    text-align: center;
     .box{
-      background: url("/images/section10/bg-box-large-size.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
       padding: 140.3px 0;
-
       .title{
         font-size: 34.0px;
         line-height: 53.5px;
-        margin: 0;
         padding: 59.5px 0 0;
       }
       .actionButton{
         width: 256.7px;
         height: 60.4px;
         margin: 29.8px auto 6.0px;
-        font-family: IRANYekanWeb;
-        font-style: normal;
-        font-weight: normal;
         font-size: 20.4px;
         line-height: 34.9px;
-        color: #FFFFFF;
-      }
-      .actionButton::selection{
-        border: none;
-        outline: none;
       }
       .info{
-        display: flex;
-        width: fit-content;
-        justify-content: center;
-        flex-direction: row-reverse;
-        align-items: center;
-        height: fit-content;
         margin: 42.5px auto 0;
         .email{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 31.7px;
             height: 31.7px;
           }
           .emailAddress{
-            font-weight: 500;
             font-size: 15.3px;
             line-height: 32.3px;
-            margin: 0;
             padding: 0 38.3px 0 8.5px;
           }
-
         }
         .phone{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 31.7px;
             height: 31.7px;
           }
           .phoneNumber{
-            font-weight: normal;
             font-size: 15.3px;
             line-height: 32.3px;
-            margin: 0;
             padding: 0 0 0 8.5px;
           }
         }
-
       }
     }
-
-
   }
 }
 @media (min-width: 1690px) {
   .wrapper{
-    width: 100%;
     margin: 153px 0;
-    padding: 0;
-    text-align: center;
     .box{
-      background: url("/images/section10/bg-box-large-size.svg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
       padding: 165px 0;
-
       .title{
         font-size: 40px;
         line-height: 63px;
-        margin: 0;
         padding: 70px 0 0;
       }
       .actionButton{
         width: 302px;
         height: 71px;
         margin: 35px auto 7px;
-        font-family: IRANYekanWeb;
-        font-style: normal;
-        font-weight: normal;
         font-size: 24px;
         line-height: 41px;
-        color: #FFFFFF;
-      }
-      .actionButton::selection{
-        border: none;
-        outline: none;
       }
       .info{
-        display: flex;
-        width: fit-content;
-        justify-content: center;
-        flex-direction: row-reverse;
-        align-items: center;
-        height: fit-content;
         margin: 50px auto 0;
         .email{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 37.28px;
             height: 37.28px;
           }
           .emailAddress{
-            font-weight: 500;
             font-size: 18px;
             line-height: 38px;
-            margin: 0;
             padding: 0 45px 0 10px;
           }
-
         }
         .phone{
-          display: flex;
-          margin: 0;
-          direction: ltr;
           img{
             width: 37.28px;
             height: 37.28px;
@@ -583,14 +435,11 @@
             font-weight: normal;
             font-size: 18px;
             line-height: 38px;
-            margin: 0;
             padding: 0 0 0 10px;
           }
         }
-
       }
     }
-
-
   }
 }
+
