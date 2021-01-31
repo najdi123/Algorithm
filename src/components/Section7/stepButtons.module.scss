@@ -54,24 +54,24 @@
 @media (min-width: 992px) {  }
 @media (min-width: 1200px) {
   .stepButtons{
-    padding-top: 90px;
+    padding-top: 0;
     .step{
-      margin: 0 20px;
+      margin: 0 14.4px;
       text-align: center;
       .stepTitle{
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 13.0px;
+        line-height: 19.4px;
       }
       .activeStepTitle{
         color: #FFFFFF;
       }
       .stepButton{
-        border-radius: 15px;
+        border-radius: 10.8px;
         background: #a4a9d5;
-        width: 92px;
-        height: 8px;
-        margin-top: 14px;
+        width: 83.4px;
+        height: 7.6px;
+        margin-top: 13.7px;
       }
       .activeStepButton{
         background: #32D6D2;
@@ -80,15 +80,58 @@
 
   }
   .dottedLine{
-    width: 302.9px;
-    //height: 0px;
-    //left: 108px;
-    //top: 3801px;
+    width: 218.4px;
+    //height: 0.0px;
+    //left: 77.8px;
+    //top: 2740.1px;
     //position: absolute;
-    bottom: 2px;
-    border-bottom: 1px dashed #25BDBE;
+    bottom: 1.5px;
+    border-bottom: 0.7px dashed #25BDBE;
     z-index: -991;
-    transform: translateY(-5px);
+    transform: translateY(-3.6px);
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1371px) {
+
+}
+@media (min-width: 1691px) {
+  .stepButtons{
+    padding-top: 0;
+    .step{
+      margin: 0 17.8px;
+      text-align: center;
+      .stepTitle{
+        font-weight: normal;
+        font-size: 16.0px;
+        line-height: 24.0px;
+      }
+      .activeStepTitle{
+        color: #FFFFFF;
+      }
+      .stepButton{
+        border-radius: 13.3px;
+        background: #a4a9d5;
+        width: 103.0px;
+        height: 9.4px;
+        margin-top: 16.9px;
+      }
+      .activeStepButton{
+        background: #32D6D2;
+      }
+    }
+
+  }
+  .dottedLine{
+    width: 269.6px;
+    //height: 0.0px;
+    //left: 96.1px;
+    //top: 3382.9px;
+    //position: absolute;
+    bottom: 1.8px;
+    border-bottom: 0.9px dashed #25BDBE;
+    z-index: -991;
+    transform: translateY(-4.5px);
     margin: 0 auto;
   }
 }

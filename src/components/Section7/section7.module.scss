@@ -9,11 +9,32 @@
 @media (min-width: 576px) {
 
 }
-@media (min-width: 768px) {  }
-@media (min-width: 992px) {  }
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+  .wrapper{
+    padding: 8.7px 0 0;
+    height: 540.9px;
+  }
+}
 @media (min-width: 1200px) {
   .wrapper{
-    height: 880px;
+    padding: 95.3px 0 0;
+    height: 654.8px;
+  }
+}
+@media (min-width: 1371px) {
+  .wrapper{
+    padding: 108.9px 0 0;
+    height: 748.3px;
+  }
+
+}
+@media (min-width: 1691px) {
+  .wrapper{
+    padding: 134.4px 0 0;
+    height: 923.8px;
   }
 }
 @media (min-width: 1900px) {
