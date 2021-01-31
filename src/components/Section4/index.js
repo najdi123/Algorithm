@@ -3,7 +3,7 @@ import styles from "./section4.module.scss";
 const Index = () => {
     return (
         <div className={styles.wrapper}>
-           <div className={styles.container}>
+           <div className={`${styles.container} container`}>
                <h2 className={styles.title1}>
                    الگوریتم،
                </h2>

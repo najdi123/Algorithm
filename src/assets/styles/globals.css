@@ -179,6 +179,17 @@ a {
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1133px !important;
+    margin: 0 auto !important;
+    /*margin: 0 !important;*/
+    padding: 0 !important;
+  }
+}
 @media screen and (min-width: 1371px) {
   .container,
   .container-lg,
