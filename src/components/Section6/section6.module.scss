@@ -19,10 +19,11 @@
     background: #FFFFFF;
     box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin: 63px 44px 25px;
+    margin: 63px 20px 25px;
     position: relative;
     //height: 150px;
-    min-width: 85vw;
+    //min-width: 85vw;
+    width: 100%;
 
     .cardIcon {
       position: absolute;
@@ -111,7 +112,7 @@
         line-height: 246.1%;
         /* or 30px */
         color: #1A1061;
-        width: 70%;
+        width: 80%;
         max-width: 230px;
         margin: 3px auto;
       }
@@ -191,13 +192,16 @@
     }
 
     .item {
-      min-width: 45vw;
+      //min-width: 45vw;
     }
   }
 }
 
 @media (min-width: 768px) {
-
+  .wrapper{
+    //max-width: 486px;
+    //margin: 0 auto;
+  }
 }
 
 @media (min-width: 992px) {
@@ -221,35 +225,537 @@
     }
 
   }
-}
-
-@media (min-width: 1200px) {
-
   .wrapper {
-    //text-align: center;
-    //padding: 0 30px 60px;
-
+    text-align: center;
+    margin: 51.0px 0 85.0px;
+    padding: 0;
 
     .title {
-      //font-size: 50px;
-      //line-height: 78px;
-      //margin: 99px 0 0;
+      font-size: 25.8px;
+      line-height: 40.1px;
+      margin: 0;
     }
 
     .showOnLargeScreen {
-      //justify-content: space-around;
+      margin: 95.8px 0 0;
+
       .item {
-        //border-radius: 10px;
-        //margin: 186px 20px 25px;
-        //position: relative;
-        min-width: 360px;
-        width: 25vw;
-        max-width: 465px;
+        //border-radius: 5.1px;
+        margin: 0 10.3px 0;
+        position: relative;
+        min-width: 239.6px;
+        width: 239.6px;
+
+        .cardIcon {
+          top: -67.0px;
+          width: 124.6px;
+          height: 124.6px;
+        }
+
+        .cardTitle1 {
+          font-size: 12.9px;
+          line-height: 20.1px;
+          /* identical to box height */
+
+          margin: 26.3px 15.4px;
+          padding: 33.0px 0 7.5px;
+          border-bottom: 2.0px solid #27BCC0;
+          //display: inline-block;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            font-size: 17.0px;
+            line-height: 26.8px;
+            padding-left: 10.8px;
+          }
+
+          .title2description {
+            font-size: 9.3px;
+            line-height: 14.4px;
+            /* identical to box height */
+            padding: 0 1.5px;
+          }
+
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .type {
+          font-size: 9.7px;
+          line-height: 15.0px;
+
+          border-radius: 4.6px;
+
+          display: inline-block;
+          padding: 4.1px 12.4px 4.6px;
+          margin: 7.8px 0 15.4px;
+        }
+
+        .description {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+
+          .checkMark {
+            padding-left: 5.7px;
+          }
+
+          p {
+            font-size: 9.7px;
+            line-height: 246.1%;
+            /* or 24.2px */
+            /* or 15.4px */
+            color: #1A1061;
+            width: 100%;
+            max-width: 90%;
+            margin: 1.5px 25.2px;
+          }
+        }
+
+        .moreInfo {
+          font-size: 12.4px;
+          line-height: 19.6px;
+
+          padding: 5.7px 21.7px;
+          //padding: 0;
+          border-radius: 46.4px;
+          margin: 18.6px 0 23.7px;
+          //margin: 0;
+        }
+
+      }
+
+      .item:hover {
+        background: #1A1061;
+        //cursor: pointer;
+
+        .cardTitle1, .type {
+          color: white;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            color: white;
+          }
+        }
+
+        .description {
+          p {
+            color: white;
+          }
+        }
+
+        .title2description {
+          color: white;
+        }
       }
     }
   }
 }
 
+@media (min-width: 1200px) {
+
+  .wrapper {
+    text-align: center;
+    margin: 61.8px 0 102.9px;
+    padding: 0;
+
+    .title {
+      font-size: 31.2px;
+      line-height: 48.6px;
+      margin: 0;
+    }
+
+    .showOnLargeScreen {
+      margin: 116.0px 0 0;
+
+      .item {
+        //border-radius: 6.2px;
+        margin: 0 12.5px 0;
+        position: relative;
+        min-width: 290.1px;
+        width: 290.1px;
+
+        .cardIcon {
+          top: -81.1px;
+          width: 150.9px;
+          height: 150.9px;
+        }
+
+        .cardTitle1 {
+          font-size: 15.6px;
+          line-height: 24.3px;
+          /* identical to box height */
+
+          margin: 31.8px 18.7px;
+          padding: 39.9px 0 9.1px;
+          border-bottom: 2.4px solid #27BCC0;
+          //display: inline-block;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            font-size: 20.6px;
+            line-height: 32.5px;
+            padding-left: 13.1px;
+          }
+
+          .title2description {
+            font-size: 11.2px;
+            line-height: 17.4px;
+            /* identical to box height */
+            padding: 0 1.8px;
+          }
+
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .type {
+          font-size: 11.8px;
+          line-height: 18.1px;
+
+          border-radius: 5.6px;
+
+          display: inline-block;
+          padding: 5.0px 15.0px 5.6px;
+          margin: 9.4px 0 18.7px;
+        }
+
+        .description {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .checkMark {
+            padding-left: 6.9px;
+          }
+
+          p {
+            font-size: 11.8px;
+            line-height: 246.1%;
+            /* or 29.3px */
+            /* or 18.7px */
+            color: #1A1061;
+            width: 100%;
+            max-width: 90%;
+            margin: 1.8px 30.5px;
+          }
+        }
+
+        .moreInfo {
+          font-size: 15.0px;
+          line-height: 23.7px;
+
+          padding: 6.9px 26.3px;
+          //padding: 0;
+          border-radius: 56.2px;
+          margin: 22.5px 0 28.7px;
+          //margin: 0;
+        }
+
+      }
+
+      .item:hover {
+        background: #1A1061;
+        //cursor: pointer;
+
+        .cardTitle1, .type {
+          color: white;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            color: white;
+          }
+        }
+
+        .description {
+          p {
+            color: white;
+          }
+        }
+
+        .title2description {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1371px) {
+  .wrapper {
+    text-align: center;
+    margin: 70.6px 0 117.6px;
+    padding: 0;
+
+    .title {
+      font-size: 35.6px;
+      line-height: 55.6px;
+      margin: 0;
+    }
+
+    .showOnLargeScreen {
+      margin: 132.6px 0 0;
+
+      .item {
+        //border-radius: 7.1px;
+        margin: 0 14.3px 0;
+        position: relative;
+        min-width: 331.5px;
+        width: 331.5px;
+
+        .cardIcon {
+          top: -92.7px;
+          width: 172.5px;
+          height: 172.5px;
+        }
+
+        .cardTitle1 {
+          font-size: 17.8px;
+          line-height: 27.8px;
+          /* identical to box height */
+
+          margin: 36.4px 21.4px;
+          padding: 45.6px 0 10.4px;
+          border-bottom: 2.8px solid #27BCC0;
+          //display: inline-block;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            font-size: 23.5px;
+            line-height: 37.1px;
+            padding-left: 15.0px;
+          }
+
+          .title2description {
+            font-size: 12.8px;
+            line-height: 19.9px;
+            /* identical to box height */
+            padding: 0 2.1px;
+          }
+
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .type {
+          font-size: 13.5px;
+          line-height: 20.7px;
+
+          border-radius: 6.4px;
+
+          display: inline-block;
+          padding: 5.7px 17.1px 6.4px;
+          margin: 10.7px 0 21.4px;
+        }
+
+        .description {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .checkMark {
+            padding-left: 7.9px;
+          }
+
+          p {
+            font-size: 13.5px;
+            line-height: 246.1%;
+            /* or 33.5px */
+            /* or 21.4px */
+            color: #1A1061;
+            width: 100%;
+            max-width: 90%;
+            margin: 2.1px 34.9px;
+          }
+        }
+
+        .moreInfo {
+          font-size: 17.1px;
+          line-height: 27.1px;
+
+          padding: 7.9px 30.0px;
+          //padding: 0;
+          border-radius: 64.2px;
+          margin: 25.7px 0 32.8px;
+          //margin: 0;
+        }
+
+      }
+
+      .item:hover {
+        background: #1A1061;
+        //cursor: pointer;
+
+        .cardTitle1, .type {
+          color: white;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            color: white;
+          }
+        }
+
+        .description {
+          p {
+            color: white;
+          }
+        }
+
+        .title2description {
+          color: white;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1691px) {
+  .wrapper {
+    text-align: center;
+    margin: 87.1px 0 145.2px;
+    padding: 0;
+
+    .title {
+      font-size: 44.0px;
+      line-height: 68.6px;
+      margin: 0;
+    }
+
+    .showOnLargeScreen {
+      margin: 163.7px 0 0;
+
+      .item {
+        //border-radius: 8.8px;
+        margin: 0 17.6px 0;
+        position: relative;
+        min-width: 409.2px;
+        width: 409.2px;
+
+        .cardIcon {
+          top: -114.4px;
+          width: 213.0px;
+          height: 213.0px;
+        }
+
+        .cardTitle1 {
+          font-size: 22.0px;
+          line-height: 34.3px;
+          /* identical to box height */
+
+          margin: 44.9px 26.4px;
+          padding: 56.3px 0 12.8px;
+          border-bottom: 3.5px solid #27BCC0;
+          //display: inline-block;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            font-size: 29.0px;
+            line-height: 45.8px;
+            padding-left: 18.5px;
+          }
+
+          .title2description {
+            font-size: 15.8px;
+            line-height: 24.6px;
+            /* identical to box height */
+            padding: 0 2.6px;
+          }
+
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .type {
+          font-size: 16.7px;
+          line-height: 25.5px;
+
+          border-radius: 7.9px;
+
+          display: inline-block;
+          padding: 7.0px 21.1px 7.9px;
+          margin: 13.2px 0 26.4px;
+        }
+
+        .description {
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .checkMark {
+            padding-left: 9.7px;
+          }
+
+          p {
+            font-size: 16.7px;
+            line-height: 246.1%;
+            /* or 41.4px */
+            /* or 26.4px */
+            color: #1A1061;
+            width: 100%;
+            max-width: 90%;
+            margin: 2.6px 43.1px;
+          }
+        }
+
+        .moreInfo {
+          font-size: 21.1px;
+          line-height: 33.4px;
+
+          padding: 9.7px 37.0px;
+          //padding: 0;
+          border-radius: 79.2px;
+          margin: 31.7px 0 40.5px;
+          //margin: 0;
+        }
+
+      }
+
+      .item:hover {
+        background: #1A1061;
+        //cursor: pointer;
+
+        .cardTitle1, .type {
+          color: white;
+        }
+
+        .cardTitle2 {
+          .percentage {
+            color: white;
+          }
+        }
+
+        .description {
+          p {
+            color: white;
+          }
+        }
+
+        .title2description {
+          color: white;
+        }
+      }
+    }
+  }
+}
 @media (min-width: 1900px) {
   .wrapper {
     text-align: center;
