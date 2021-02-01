@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from "./section8.module.scss";
 import Slider from "react-slick";
 
@@ -89,14 +89,15 @@ const Index = () => {
             {
                 breakpoint: 380,
                 settings: {
-                    centerPadding: "0%",
+                    centerPadding: "8%",
                 },
             },
         ],
     };
+
     return (
         <div className={styles.wrapper}>
-            <div className="container">
+            <div className={styles.container}>
                 <h2 className={styles.title1}>
                     همپای هم رشد میکنیم
                 </h2>
