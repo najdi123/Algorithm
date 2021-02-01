@@ -12,6 +12,8 @@
     position: fixed;
     top: 89vh;
     right: 3vw;
+
+    display: block;
 }
 
 @media (min-width: 576px) {

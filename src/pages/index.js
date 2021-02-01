@@ -24,7 +24,9 @@ export default function Home() {
       {/*<main className={styles.container}>*/}
       <main className="">
         <TopHeader />
-          <img className={styles.conatctPhone} src="/images/contact-phone.svg" alt=""/>
+          <a href="tel:02166972655" className={styles.conatctPhone}>
+            <img  src="/images/contact-phone.svg" alt=""/>
+          </a>
         <Statistics />
         <MutualFunds />
         <Section4 />
