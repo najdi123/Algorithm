@@ -61,7 +61,7 @@ const Index = () => {
                 },
             },
             {
-                breakpoint: 850,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
                     centerPadding: "0%",
@@ -69,9 +69,9 @@ const Index = () => {
                 },
             },
             {
-                breakpoint: 580,
+                breakpoint: 770,
                 settings: {
-                    centerPadding: "17%",
+                    centerPadding: "13%",
                 },
             },
             {
@@ -81,9 +81,15 @@ const Index = () => {
                 },
             },
             {
-                breakpoint: 380,
+                breakpoint: 430,
                 settings: {
                     centerPadding: "8%",
+                },
+            },
+            {
+                breakpoint: 380,
+                settings: {
+                    centerPadding: "0%",
                 },
             },
         ],
