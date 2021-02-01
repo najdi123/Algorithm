@@ -66,24 +66,7 @@
 @media (min-width: 768px) {  }
 @media (min-width: 992px) {  }
 @media (min-width: 1200px) {
-    /*.navbarWrapper{*/
-    /*    height: 87px;*/
-    /*    border-radius: 0px 0px 30px 30px;*/
-    /*}*/
 
-    /*.navLogo{*/
-    /*    font-size: 24px;*/
-    /*    display: flex;*/
-    /*    align-items: center;*/
-    /*    text-align: right;*/
-    /*    padding: 0;*/
-
-    /*    margin: 2px 102px 2px 0 ;*/
-    /*}*/
-    /*.logo{*/
-    /*    width: 115px;*/
-    /*    height: 98px;*/
-    /*}*/
     .leftBox{
         display: flex;
         flex-direction: row-reverse;
@@ -118,6 +101,101 @@
     }
     .phoneIcon{
     margin-bottom: 10px;
+    }
+
+    .navbarWrapper{
+        height: 80.1px;
+        border-radius: 0.0px 0.0px 18.9px 18.9px;
+    }
+    .navLogo{
+
+        font-size: 15.1px;
+        line-height: 24.0px;
+        /* identical to box height */
+        align-items: center;
+        text-align: right;
+        padding: 0;
+        margin: 1.3px 102.2px 1.3px 0 ;
+    }
+    .logo{
+        width: 91.5px;
+        height: 80.8px;
+    }
+
+    .actionButton{
+        width: 190.5px;
+        height: 56.8px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 18.9px;
+        line-height: 29.0px;
+    }
+    .phoneNumber{
+        font-size: 15.1px;
+    }
+}
+@media (min-width: 1371px) {
+    .navbarWrapper{
+        height: 91.5px;
+        border-radius: 0.0px 0.0px 21.6px 21.6px;
+    }
+    .navLogo{
+
+        font-size: 17.3px;
+        line-height: 27.4px;
+        /* identical to box height */
+        align-items: center;
+        text-align: right;
+        padding: 0;
+        margin: 1.5px 116.8px 1.5px 0 ;
+    }
+    .logo{
+        width: 104.6px;
+        height: 92.3px;
+    }
+
+    .actionButton{
+        width: 217.7px;
+        height: 64.9px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 21.6px;
+        line-height: 33.1px;
+    }
+    .phoneNumber{
+        font-size: 17.3px;
+    }
+}
+@media (min-width: 1691px) {
+    .navbarWrapper{
+        height: 113.0px;
+        border-radius: 0.0px 0.0px 26.7px 26.7px;
+    }
+    .navLogo{
+
+        font-size: 21.4px;
+        line-height: 33.8px;
+        /* identical to box height */
+        align-items: center;
+        text-align: right;
+        padding: 0;
+        margin: 1.8px 144.2px 1.8px 0 ;
+    }
+    .logo{
+        width: 129.1px;
+        height: 113.9px;
+    }
+
+    .actionButton{
+        width: 268.8px;
+        height: 80.1px;
+        margin: 0;
+        font-weight: 500;
+        font-size: 26.7px;
+        line-height: 40.9px;
+    }
+    .phoneNumber{
+        font-size: 21.4px;
     }
 }
 @media (min-width: 1900px) {
