@@ -41,9 +41,13 @@
       color: #FFFFFF;
     }
 
+    .actionButton:hover {
+      background: #1A1061;
+    }
     .actionButton::selection {
       border: none;
       outline: none;
+      background: #1A1061;
     }
 
     .info {

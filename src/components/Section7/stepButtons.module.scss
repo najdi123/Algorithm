@@ -29,9 +29,15 @@
       margin-top: 3px;
       z-index: 99;
     }
+    .stepButton:hover{
+      cursor: pointer;
+    }
     .activeStepButton{
       background: #32D6D2;
     }
+  }
+  .step:hover{
+    cursor: pointer;
   }
 
 }

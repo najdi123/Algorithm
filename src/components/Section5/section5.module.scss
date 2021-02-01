@@ -107,6 +107,7 @@
             margin: 0 20px;
             padding-bottom: 100px;
             border: none;
+            Width: 159.7px;
           }
         }
         .item:hover{
@@ -138,8 +139,8 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        margin: 41.3px 22.2px 0;
+        justify-content: space-between;
+        margin: 41.3px 0 0;
         padding: 0;
         .item{
           //width: 209.6px;
@@ -190,8 +191,8 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        margin: 53.3px 28.7px 0;
+        justify-content: space-between;
+        margin: 53.3px 0 0;
         padding: 0;
         .item{
           //width: 270.4px;
@@ -214,6 +215,7 @@
             line-height: 29.2px;
             margin: 10.0px 0 0;
             padding:0;
+            Width: 206.3px;
           }
         }
 
@@ -242,8 +244,8 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        margin: 64.5px 34.7px 0;
+        justify-content: space-around;
+        margin: 64.5px 0 0;
         padding: 0;
         .item{
           //width: 327.4px;
@@ -266,6 +268,8 @@
             line-height: 35.4px;
             margin: 12.1px 0 0;
             padding:0;
+            Width: 250px;
+
           }
         }
 
@@ -294,12 +298,12 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        padding: 73.7px 39.7px 0;
+        justify-content: space-around;
+        padding: 73.7px 0 0;
         margin: 0;
         .item{
           //width: 374.2px;
-          padding: 39.7px 39.7px 21.9px 39.7px;
+          padding: 35.3px 22.4px 19.4px 22.4px;
           margin: 0;
           .icon {
             width: 123.1px;
@@ -316,8 +320,9 @@
           .description {
             font-size: 19.4px;
             line-height: 40.5px;
-            margin: 13.8px 0 0;
+            margin: 13.8px auto 0;
             padding:0;
+            Width: 285.4px;
           }
         }
 
@@ -346,12 +351,12 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        margin: 91px 49px 0;
+        justify-content: space-around;
+        margin: 91px 0 0;
         padding: 0;
         .item{
           width: 462px;
-          padding: 49px 49px 27px 49px;
+          padding: 43.6px 27.6px 24.0px 27.6px;
           margin: 0;
           .icon {
             width: 152px;
@@ -368,8 +373,9 @@
           .description {
             font-size: 24px;
             line-height: 50px;
-            margin: 17px 0 0;
+            margin: 17px auto 0;
             padding:0;
+            Width: 352.4px;
           }
         }
 
@@ -399,12 +405,12 @@
 
       .itemsWrapper {
         display: flex;
-        justify-content: flex-start;
-        margin: 91px 49px 0;
+        justify-content: space-around;
+        margin: 91px 0 0;
         padding: 0;
         .item{
           width: 462px;
-          padding: 49px 49px 27px 49px;
+          padding: 49px 31px 27px 31px;
           margin: 0;
           .icon {
             width: 152px;
@@ -421,8 +427,9 @@
           .description {
             font-size: 24px;
             line-height: 50px;
-            margin: 17px 0 0;
+            margin: 17px auto 0;
             padding:0;
+            Width: 396px;
           }
         }
 

@@ -28,7 +28,7 @@ const Index = () => {
     return (
         <div className={styles.wrapper}>
             <div className="container">
-                <StepButtons activeStep={activeStep}/>
+                <StepButtons activeStep={activeStep} setActiveStep={setActiveStep}/>
                 {activeStep === 1 &&
                 <Step1 selectStep={selectStep}/>}
                 {activeStep === 2 &&
