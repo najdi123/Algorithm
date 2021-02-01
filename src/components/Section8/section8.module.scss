@@ -146,11 +146,79 @@
   }
 
 }
+@media (min-width: 1691.0px) {
+  .wrapper {
+    text-align: center;
+    margin: 84.5px 0 290px;
+    .title1 {
+      font-size: 44.5px;
+      line-height: 69.4px;
+      margin: 0;
+    }
+
+    .title2 {
+      font-size: 35.6px;
+      line-height: 54.3px;
+
+      margin: 8.9px 0 0;
+    }
+
+    .carouselWrapper {
+      width: 341.8px !important;
+      margin: 84.5px 0 17.8px;
+      .carousel {
+        //width: 231.4px;
+        width: 341.8px;
+        height: 455.7px;
+        background: #FEFEFE;
+        box-shadow: 0.9px 3.6px 14.2px rgba(0, 0, 0, 0.25);
+        border-radius: 16.0px;
+        margin: 0;
+        padding-top: 0.9px;
+        .advisorImage {
+          width: 110.6px;
+          height: 110.6px;
+          margin: 34.7px auto 0;
+        }
+
+        .name {
+          font-size: 21.4px;
+          line-height: 33.8px;
+          margin: 20.5px auto 0;
+        }
+
+        .title {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14.2px;
+          line-height: 21.4px;
+          color: #2D2D2D;
+          margin: 0;
+        }
+
+        .border {
+          width: 145.1px;
+          height: 0.0px;
+          border: 1.8px solid #25BDBE;
+          margin: 12.9px auto 0;
+        }
+
+        .description {
+          font-size: 12.5px;
+          line-height: 25.8px;
+          width: 307.9px;
+          margin: 22.3px auto 0;
+          padding-bottom: 32.0px;
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 1900px) {
   .wrapper {
     text-align: center;
-    margin: 95px 0 170px;
+    margin: 95px 0 400px;
     .title1 {
       font-size: 50px;
       line-height: 78px;
