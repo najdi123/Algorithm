@@ -56,7 +56,7 @@ const Index = () => {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
-                    centerPadding: "0%",
+                    centerPadding: "8%",
                     centerMode: true,
                 },
             },
@@ -64,30 +64,55 @@ const Index = () => {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    centerPadding: "0%",
+                    centerPadding: "12%",
                     centerMode: true,
                 },
             },
             {
                 breakpoint: 770,
                 settings: {
-                    centerPadding: "13%",
+                    slidesToShow: 2,
+                    centerPadding: "8%",
+                    centerMode: true,
+                },
+            },
+            ,
+            {
+                breakpoint: 660,
+                settings: {
+                    slidesToShow: 2,
+                    centerPadding: "5%",
+                    centerMode: true,
                 },
             },
             {
-                breakpoint: 450,
+                breakpoint: 610,
+                settings: {
+
+                    centerPadding: "20%",
+                    centerMode: true,
+                },
+            },
+            {
+                breakpoint: 480,
                 settings: {
                     centerPadding: "15%",
                 },
             },
             {
-                breakpoint: 430,
+                breakpoint: 415,
                 settings: {
-                    centerPadding: "8%",
+                    centerPadding: "13%",
                 },
             },
             {
-                breakpoint: 380,
+                breakpoint: 390,
+                settings: {
+                    centerPadding: "11%",
+                },
+            },
+            {
+                breakpoint: 365,
                 settings: {
                     centerPadding: "8%",
                 },
